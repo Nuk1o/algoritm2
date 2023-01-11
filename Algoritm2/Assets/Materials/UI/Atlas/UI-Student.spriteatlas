@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI-Student
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: bda04aed9380f704185cf00eeb0c39c5, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 623bd0e19e941d749ba0ade26336ebca, type: 3}
+  - {fileID: 21300000, guid: 72625375b6c36ee46bde6914e82ad4e2, type: 3}
+  - {fileID: 21300000, guid: cf5022c9a1580a44bb4ed42a3a2c9938, type: 3}
+  - {fileID: 21300000, guid: ab621f9a3724257488eb66515ff18f8e, type: 3}
+  - {fileID: 21300000, guid: ef2d97aa86e3dc74bb74ea63c551115d, type: 3}
+  - {fileID: 21300000, guid: cb104dba4fe921b47ae24ba37a895a01, type: 3}
+  - {fileID: 21300000, guid: 102a2f7b600b47844aefdfe8a97fc473, type: 3}
+  - {fileID: 21300000, guid: f1e6b92c237a5b349a3e114170cc185f, type: 3}
+  - {fileID: 21300000, guid: 38383f4f4fd400f4f801790bef49384f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - book-fill
+  - Algoritm
+  - Rectangle 1
+  - Rectangle 2
+  - "\u041C\u0435\u043D\u044E"
+  - house-door-fill
+  - pen-fill
+  - Menu
+  - "\u041B\u043E\u0433\u043E\u0442\u0438\u043F"
+  m_RenderDataMap: {}
+  m_Tag: UI-Student
+  m_IsVariant: 0
