@@ -568,3 +568,79 @@ Received Import Request.
   path: Assets/Prefabs/UI-Student.prefab
   artifactKey: Guid(316a6d6839f8e5246886eb50835d0261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/UI-Student.prefab using Guid(316a6d6839f8e5246886eb50835d0261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd960957c8962659fd4592921b0624e30') in 0.020990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62395.337812 seconds.
+  path: Assets/Materials/UI/Student Window/Rectangle 1.png
+  artifactKey: Guid(cf5022c9a1580a44bb4ed42a3a2c9938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Student Window/Rectangle 1.png using Guid(cf5022c9a1580a44bb4ed42a3a2c9938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203a928333d7d43467426ab9a1f05cd4') in 0.079232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2781.990042 seconds.
+  path: Assets/Prefabs/UI-Student.prefab
+  artifactKey: Guid(316a6d6839f8e5246886eb50835d0261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI-Student.prefab using Guid(316a6d6839f8e5246886eb50835d0261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3012bcb38f52ffadd7863f4fe699e6') in 0.043379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.980438 seconds.
+  path: Assets/Prefabs/UI-Student 1.prefab
+  artifactKey: Guid(79101d428ee09474ab0618c473954e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI-Student 1.prefab using Guid(79101d428ee09474ab0618c473954e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4f797d4cc2173e32b513329ff593c5') in 0.022952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.734326 seconds.
+  path: Assets/Prefabs/UI-Theory.prefab
+  artifactKey: Guid(79101d428ee09474ab0618c473954e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI-Theory.prefab using Guid(79101d428ee09474ab0618c473954e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9042097667fed3faa073c5fd61262b1') in 0.021278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.722436 seconds.
+  path: Assets/Prefabs/UI-Theory.prefab
+  artifactKey: Guid(79101d428ee09474ab0618c473954e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI-Theory.prefab using Guid(79101d428ee09474ab0618c473954e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039cb47db8c917b500187227fc70fada') in 0.021811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.913419 seconds.
+  path: Assets/Materials/UI/Theory/Menu.png
+  artifactKey: Guid(d218a479f51428e409ea4a58591a2b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Theory/Menu.png using Guid(d218a479f51428e409ea4a58591a2b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ab19e125a3552a2e787ba32015da91') in 0.011454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/UI/Theory/Кнопка-1.png
+  artifactKey: Guid(f567717450283c546a0868773bb41429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Theory/Кнопка-1.png using Guid(f567717450283c546a0868773bb41429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee429ec6c54f8841707b9ada7fbd910') in 0.060640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Materials/UI/Theory/Кнопка-2.png
+  artifactKey: Guid(ca471801eba9c9b4e88f4387afccbce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Theory/Кнопка-2.png using Guid(ca471801eba9c9b4e88f4387afccbce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b867ba022ebbd8229930eb187e7c92') in 0.015091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.263141 seconds.
+  path: Assets/Materials/UI/Practice/Table-2.png
+  artifactKey: Guid(1bf20e9e034352a43816f37dfe6546eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Practice/Table-2.png using Guid(1bf20e9e034352a43816f37dfe6546eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dadef01510f9cfc68e8fe4747a9f1da') in 0.054659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/UI/Practice/Выполняемое задание.png
+  artifactKey: Guid(ee4d684c229970d4db3fbf20afc5552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Practice/Выполняемое задание.png using Guid(ee4d684c229970d4db3fbf20afc5552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3023a05d9c58a721d25f984b87924333') in 0.016723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials/UI/Practice/Table.png
+  artifactKey: Guid(fd892f2a6da10554fae4e2da05bdcadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Practice/Table.png using Guid(fd892f2a6da10554fae4e2da05bdcadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab419653ca24ee4aad186a6799adea3') in 0.088623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Materials/UI/Practice/Блоки.png
+  artifactKey: Guid(d7f87f5ab89ab444aa6b9a3959c3c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Practice/Блоки.png using Guid(d7f87f5ab89ab444aa6b9a3959c3c69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db6ebeed7f03dcee2ab938e1ea49410') in 0.012465 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
