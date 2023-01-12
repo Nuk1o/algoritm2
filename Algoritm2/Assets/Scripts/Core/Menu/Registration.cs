@@ -18,13 +18,15 @@ public class Registration : MonoBehaviour
             core.Core _core = new Core();
             string login_user = _login.text;
             string password_user = _core.set_pass(_password.text);
+            string role = "student";
             if (_role.value == 0)
             {
-                
+                role = "teacher";
+                _core.add_user_db(login_user,password_user,role);
             }
             else
             {
-                
+                _core.add_user_db(login_user,password_user,role);
             }
         }
         catch

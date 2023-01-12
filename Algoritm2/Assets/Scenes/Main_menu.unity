@@ -1467,6 +1467,7 @@ GameObject:
   - component: {fileID: 3541721556163258560}
   - component: {fileID: 795263921542059070}
   - component: {fileID: 8568530735001208617}
+  - component: {fileID: 8568530735001208618}
   m_Layer: 5
   m_Name: Sign In
   m_TagString: Untagged
@@ -9559,7 +9560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &4815886848272806126
 GameObject:
   m_ObjectHideFlags: 0
@@ -9861,7 +9862,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3289404213831461452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8359164498386819978}
+        m_TargetAssemblyTypeName: Registration, Assembly-CSharp
+        m_MethodName: add_user
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4972601548085012259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11717,8 +11730,9 @@ GameObject:
   - component: {fileID: 4376490248881527725}
   - component: {fileID: 3289404213831461452}
   - component: {fileID: 4955494514076832145}
+  - component: {fileID: 8359164498386819978}
   m_Layer: 5
-  m_Name: Sign Up
+  m_Name: Add user
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15024,7 +15038,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &8184619308083720865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15515,6 +15529,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -300}
   m_SizeDelta: {x: 271, y: 114}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8359164498386819978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6145006841076972063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493220596c57fbb46a1de70b3bb0b9ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _login: {fileID: 2293055647540345940}
+  _password: {fileID: 742130888291954620}
+  _role: {fileID: 4203208057174103119}
 --- !u!224 &8379105648762072514
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15798,7 +15827,37 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 795263921542059070}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8568530735001208618}
+        m_TargetAssemblyTypeName: Auth, Assembly-CSharp
+        m_MethodName: Enter_App
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8568530735001208618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547735915560334264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ff608db39a9214ca0e5cc25471bc42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ui_auth: {fileID: 8169550887431873524}
+  _ui_admin: {fileID: 4815886848272806126}
+  _ui_teacher: {fileID: 5075496043670442892}
+  _ui_student: {fileID: 3955083665486552767}
+  _login: {fileID: 3373876146835140521}
+  _password: {fileID: 7586751947588270360}
 --- !u!224 &8586100242856180181
 RectTransform:
   m_ObjectHideFlags: 0
