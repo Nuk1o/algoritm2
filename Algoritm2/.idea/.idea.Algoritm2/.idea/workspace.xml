@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Core.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Core.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BD_base.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BD_base.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Exit_app.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Exit_app.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +21,14 @@
     <setting file="file://$PROJECT_DIR$/../../../Programm/Algoritm/Assets/Scripts/BD/BD_base.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Programm/Algoritm/Assets/Scripts/BD/BD_connection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Programm/Algoritm/Assets/Scripts/BD/BD_param.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Programm/Algoritm/Assets/Scripts/Other/Login_view.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Programm/Algoritm/Assets/Scripts/Other/Registration.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KBY0IERX9waJ0zJKbhZevpHdgO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,7 +85,8 @@
       <updated>1673449231131</updated>
       <workItem from="1673449242749" duration="2854000" />
       <workItem from="1673539298251" duration="686000" />
-      <workItem from="1673540010400" duration="1731000" />
+      <workItem from="1673540010400" duration="5509000" />
+      <workItem from="1673545977096" duration="864000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,7 @@ namespace DataBase
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = conn;
             conn.Open();
-            Debug.Log("Aboba OK "+conn.Database);
+            Debug.Log("Подключились "+conn.Database);
             Debug.Log(conn.State);
             conn.Close();
         }
