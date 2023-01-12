@@ -2,25 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-BlackItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-BlackItalic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraBold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraBold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraBoldItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraBoldItalic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraLight SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraLight SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraLightItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraLightItalic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Italic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Italic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-LightItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-LightItalic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-MediumItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-MediumItalic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-SemiBoldItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-SemiBoldItalic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Thin SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Thin SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ThinItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ThinItalic SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Black.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-BlackItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-BoldItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ExtraBold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ExtraBoldItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ExtraLight.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ExtraLightItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Italic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-LightItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Medium.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-MediumItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-SemiBold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-SemiBoldItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-Thin.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/Montserrat-ThinItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Black SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Black SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-BlackItalic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-BlackItalic SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Bold SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Bold SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-BoldItalic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-BoldItalic SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraBold SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraBold SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraBoldItalic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraBoldItalic SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraLight SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraLight SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraLightItalic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ExtraLightItalic SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Italic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Italic SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Light SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-LightItalic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-LightItalic SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Medium SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Medium SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-MediumItalic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-MediumItalic SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-SemiBoldItalic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-SemiBoldItalic SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Thin SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-Thin SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ThinItalic SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Fonts/tmp_fonts/Montserrat-ThinItalic SDF.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Exit_app.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Exit_app.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker11.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker11.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker12.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker12.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
