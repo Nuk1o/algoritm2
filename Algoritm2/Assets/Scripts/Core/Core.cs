@@ -68,6 +68,34 @@ namespace core
             }
             return null;
         }
+
+        internal List<string> name_task_panel_teach()
+        {
+            BD_base bb = new BD_base();
+            try
+            {
+                return bb.name_task();
+            }
+            catch
+            {
+                Debug.Log("Ошибка вывода названия задания Core");
+            }
+            return null;
+        }
+        
+        internal List<string> text_task_panel_teach()
+        {
+            BD_base bb = new BD_base();
+            try
+            {
+                return bb.text_task();
+            }
+            catch
+            {
+                Debug.Log("Ошибка вывода текста задания Core");
+            }
+            return null;
+        }
     }
 }
 

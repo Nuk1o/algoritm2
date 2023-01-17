@@ -117,5 +117,65 @@ namespace DataBase
             }
             return null;
         }
+
+        internal List<string> name_task()
+        {
+            try
+            {
+                List<string> _login_list = new List<string>();
+                MySqlConnection con = BD_param.BD_con();
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = con;
+                cmd.CommandText = "select name_task from select_name_task_text_task_from_task";
+                con.Open();
+                using (var reader = cmd.ExecuteReader())
+                {
+                    int i = 0;
+                    while (reader.Read())
+                    {
+                        _login_list.Add(reader.GetString(0));
+                        i++;
+                    }
+                }
+                con.Close();
+                Debug.Log(_login_list.Count);
+                return _login_list;
+            }
+            catch
+            {
+                Debug.Log("Ошибка name task, base");
+            }
+            return null;
+        }
+        
+        internal List<string> text_task()
+        {
+            try
+            {
+                List<string> _login_list = new List<string>();
+                MySqlConnection con = BD_param.BD_con();
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = con;
+                cmd.CommandText = "select text_task from select_name_task_text_task_from_task";
+                con.Open();
+                using (var reader = cmd.ExecuteReader())
+                {
+                    int i = 0;
+                    while (reader.Read())
+                    {
+                        _login_list.Add(reader.GetString(0));
+                        i++;
+                    }
+                }
+                con.Close();
+                Debug.Log(_login_list.Count);
+                return _login_list;
+            }
+            catch
+            {
+                Debug.Log("Ошибка text task, base");
+            }
+            return null;
+        }
     }
 }
