@@ -4,12 +4,7 @@
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Core.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Core.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BD_base.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BD_base.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +90,7 @@
       <workItem from="1673624265489" duration="3675000" />
       <workItem from="1673958529503" duration="596000" />
       <workItem from="1673967305875" duration="2185000" />
+      <workItem from="1674591420823" duration="1952000" />
     </task>
     <servers />
   </component>
