@@ -11,6 +11,8 @@ public class Blocks_core : MonoBehaviour, IBeginDragHandler, IEndDragHandler, ID
     {
         _rectTransform = GetComponent<RectTransform>();
         _image = GetComponent<Image>();
+        
+        
     }
 
 
