@@ -84,6 +84,7 @@ class InputTextBlock
 
     public void SaveInputText(EneterTextBlock eneterTextBlock)
     {
+        _tmpInputField.text = "";
         Debug.Log("Ввод текста в блок");
         _buttonOk.onClick.AddListener(delegate { TextSaveButton(eneterTextBlock, _tmpInputField);});
     }
