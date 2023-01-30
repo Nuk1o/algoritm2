@@ -15,7 +15,7 @@ F:/Курсач/Algoritm2/algoritm2/Algoritm2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62147
+61232
 Successfully changed project path to: F:/Курсач/Algoritm2/algoritm2/Algoritm2
 F:/Курсач/Algoritm2/algoritm2/Algoritm2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ F:/Курсач/Algoritm2/algoritm2/Algoritm2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 115.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 120.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,81 +63,81 @@ Initialize mono
 Mono path[0] = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006112 seconds.
+Registered in 0.006120 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 118.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 107.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
+- Completed reload, in  0.817 seconds
 Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (625ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (386ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (373ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (77ms)
+				InitializePlatformSupportModulesInManaged (76ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
+				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010199 seconds.
+Registered in 0.010236 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Курсач\Algoritm2\algoritm2\Algoritm2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Курсач\Algoritm2\algoritm2\Algoritm2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.20 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 124.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.642 seconds
+- Completed reload, in  1.705 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1643ms)
-		BeginReloadAssembly (247ms)
+	ReloadAssembly (1706ms)
+		BeginReloadAssembly (253ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (137ms)
-		EndReloadAssembly (1244ms)
-			LoadAssemblies (111ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (1311ms)
+			LoadAssemblies (239ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
+			SetupTypeCache (333ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (616ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (615ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4108 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (229.8 KB). Loaded Objects now: 4557.
 Memory consumption went from 154.7 MB to 154.5 MB.
-Total: 4.144300 ms (FindLiveObjects: 0.400100 ms CreateObjectMapping: 0.117500 ms MarkObjects: 3.421500 ms  DeleteObjects: 0.204200 ms)
+Total: 4.481100 ms (FindLiveObjects: 0.432600 ms CreateObjectMapping: 0.146100 ms MarkObjects: 3.610700 ms  DeleteObjects: 0.290600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,3 +163,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346269.181309 seconds.
+  path: Assets/Prefabs/Blocks/Данные.prefab
+  artifactKey: Guid(6a9ce735e6e954a43a0a93dbdc2e43ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Данные.prefab using Guid(6a9ce735e6e954a43a0a93dbdc2e43ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d51b007f8cb8f8525ea9ff90a39dc8') in 0.163115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.353690 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.005020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.313606 seconds.
+  path: Assets/Prefabs/Blocks/Данные.prefab
+  artifactKey: Guid(6a9ce735e6e954a43a0a93dbdc2e43ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Данные.prefab using Guid(6a9ce735e6e954a43a0a93dbdc2e43ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62ff58d5fa86c256c1e53eea1c79dfe') in 0.011264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.382211 seconds.
+  path: Assets/Prefabs/Blocks/Подготовка.prefab
+  artifactKey: Guid(39a6b6edcac56714a84ecafc01d9ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Подготовка.prefab using Guid(39a6b6edcac56714a84ecafc01d9ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cc419552c91fa2c27da2fda10aa46c') in 0.007759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.540676 seconds.
+  path: Assets/Prefabs/Blocks/Предопределенный процесс.prefab
+  artifactKey: Guid(4feaf177c6d09e14d993c707618bab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Предопределенный процесс.prefab using Guid(4feaf177c6d09e14d993c707618bab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a7f1ed62d55e366a09bc1bd2a66080') in 0.009086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.813584 seconds.
+  path: Assets/Prefabs/Blocks/Процесс.prefab
+  artifactKey: Guid(93ad1b9f6d37a2c41966f0ac5c9d3aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Процесс.prefab using Guid(93ad1b9f6d37a2c41966f0ac5c9d3aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9fe651296000fd7ea35f032a61524') in 0.007553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.756808 seconds.
+  path: Assets/Prefabs/Blocks/Решение.prefab
+  artifactKey: Guid(981ce3326454635448d89a62d820d1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Решение.prefab using Guid(981ce3326454635448d89a62d820d1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa53693a0cad0421196d6fbafc428c3') in 0.008190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.588945 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a08657490682ccb846e559503abb70') in 0.002119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.264660 seconds.
+  path: Assets/Prefabs/Blocks/Соединитель.prefab
+  artifactKey: Guid(d26eed0b293cecb4abfed84e8b6b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Соединитель.prefab using Guid(d26eed0b293cecb4abfed84e8b6b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eaf242c262192e6bd4de75b5de7dc8') in 0.019887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.952137 seconds.
+  path: Assets/Prefabs/Blocks/Терминатор.prefab
+  artifactKey: Guid(e3836e186b78ab447a4c09902a9ec489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Терминатор.prefab using Guid(e3836e186b78ab447a4c09902a9ec489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bce863b002cf729fddb405417b74e50') in 0.011763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.765451 seconds.
+  path: Assets/Prefabs/Blocks/Терминатор 1.prefab
+  artifactKey: Guid(56bbad391c0d7ab45b0ef30cb6cf11cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Терминатор 1.prefab using Guid(56bbad391c0d7ab45b0ef30cb6cf11cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c128da761fcd4adf6c51828f18fc9d1d') in 0.008421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.651764 seconds.
+  path: Assets/Prefabs/Blocks/Данные.prefab
+  artifactKey: Guid(6a9ce735e6e954a43a0a93dbdc2e43ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Данные.prefab using Guid(6a9ce735e6e954a43a0a93dbdc2e43ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fe3d4cf0c13ed8a2aa96c7bffe7fb9') in 0.007289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010693 seconds.
+  path: Assets/Prefabs/Blocks/Предопределенный процесс.prefab
+  artifactKey: Guid(4feaf177c6d09e14d993c707618bab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Предопределенный процесс.prefab using Guid(4feaf177c6d09e14d993c707618bab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e8de7c5be48eabe264a0f0da5fcfa5') in 0.007218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Blocks/Соединитель.prefab
+  artifactKey: Guid(d26eed0b293cecb4abfed84e8b6b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Соединитель.prefab using Guid(d26eed0b293cecb4abfed84e8b6b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d255a3e445db24e0b0f034b3daeff6e') in 0.007643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Blocks/Процесс.prefab
+  artifactKey: Guid(93ad1b9f6d37a2c41966f0ac5c9d3aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Процесс.prefab using Guid(93ad1b9f6d37a2c41966f0ac5c9d3aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579073da22333be0dad652783f6a1322') in 0.007191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.563578 seconds.
+  path: Assets/Prefabs/Blocks/Подготовка.prefab
+  artifactKey: Guid(39a6b6edcac56714a84ecafc01d9ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Подготовка.prefab using Guid(39a6b6edcac56714a84ecafc01d9ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14978c94758138a3809e2fc2d9282cc') in 0.008985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/Blocks/Предопределенный процесс.prefab
+  artifactKey: Guid(4feaf177c6d09e14d993c707618bab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Предопределенный процесс.prefab using Guid(4feaf177c6d09e14d993c707618bab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85396d15b884eb6691ec59958f008cb0') in 0.009675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Blocks/Терминатор.prefab
+  artifactKey: Guid(e3836e186b78ab447a4c09902a9ec489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blocks/Терминатор.prefab using Guid(e3836e186b78ab447a4c09902a9ec489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c4a10e694eabe78fd37f8f110e6049') in 0.010553 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

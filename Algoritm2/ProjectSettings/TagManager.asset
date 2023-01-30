@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DataBlock
+  - PreparationBlock
+  - PredefinedProcessBlock
+  - ProcessBlock
+  - DecisionBlock
+  - ConnectorBlock
+  - TerminatorBlock
   layers:
   - Default
   - TransparentFX
