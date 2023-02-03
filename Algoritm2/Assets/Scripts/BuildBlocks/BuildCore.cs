@@ -25,12 +25,12 @@ public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPoi
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        //Debug.Log("Начал таскать");
+        //Debug.Log("Начал переносить");
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        //Debug.Log("Остановился таскать");
+        //Debug.Log("Остановился переносить");
     }
 
     public void OnPointerDown(PointerEventData eventData)
