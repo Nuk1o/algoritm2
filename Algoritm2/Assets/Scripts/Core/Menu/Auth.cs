@@ -28,9 +28,9 @@ public class Auth : MonoBehaviour
         string login_s = Encoding.UTF8.GetString(decrypted);
         string pass_s = Convert.ToBase64String(encrypted);
         
-        Debug.Log("Пароль при входе: "+pass_s);
+        //Debug.Log("Пароль при входе: "+pass_s);
         string role = _core.enter_user_app(login_s, pass_s);
-        Debug.Log($"Роль в авторизации {role}");
+        //Debug.Log($"Роль в авторизации {role}");
         switch (role)
         {
             case "admin":
