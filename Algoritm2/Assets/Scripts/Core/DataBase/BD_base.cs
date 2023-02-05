@@ -1,36 +1,20 @@
 using MySql.Data.MySqlClient;
 using UnityEngine;
-using System;
 using System.Collections.Generic;
 
 namespace DataBase
-{ 
+{
     public class BD_base
     {
-        public void test_con()
-        {
-            MySqlConnection conn = BD_param.BD_con();
-            MySqlCommand cmd = new MySqlCommand();
-            cmd.Connection = conn;
-            conn.Open();
-            Debug.Log("Подключились "+conn.Database);
-            Debug.Log(conn.State);
-            conn.Close();
-        }
-
-        internal void add_user(string login,string password,string role)
+        internal void add_user(string login, string password, string role)
         {
             try
             {
-                MySqlConnection con = BD_param.BD_con();
-                MySqlCommand cmd = new MySqlCommand();
-                cmd.Connection = con;
-                cmd.CommandText = @$"call create_user_db('{login}','{password}','{role}')";
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                object queryBD = databaseQuery.QueryBD($"call create_user_db('{login}','{password}','{role}')");
+                Debug.Log(queryBD);
             }
-            catch 
+            catch
             {
                 Debug.Log("Ошибка добавления пользователя BD_base");
             }
@@ -40,16 +24,10 @@ namespace DataBase
         {
             try
             {
-                MySqlConnection con = BD_param.BD_con();
-                MySqlCommand cmd = new MySqlCommand();
-                cmd.Connection = con;
-                cmd.CommandText = @$"call enter_app_db('{login}','{password}')";
-                con.Open();
-                var role = cmd.ExecuteScalar();
-                string role_r = role.ToString();
-                Debug.Log(role_r);
-                con.Close();
-                return role_r;
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                object queryBD = databaseQuery.QueryBD($"call enter_app_db('{login}','{password}')");
+                Debug.Log(queryBD);
+                return queryBD.ToString();
             }
             catch
             {
@@ -62,54 +40,27 @@ namespace DataBase
         {
             try
             {
-                List<string> _login_list = new List<string>();
-                MySqlConnection con = BD_param.BD_con();
-                MySqlCommand cmd = new MySqlCommand();
-                cmd.Connection = con;
-                cmd.CommandText = "select * from select_logins_from_users";
-                con.Open();
-                using (var reader = cmd.ExecuteReader())
-                {
-                    int i = 0;
-                    while (reader.Read())
-                    {
-                        _login_list.Add(reader.GetString(0));
-                        i++;
-                    }
-                }
-                con.Close();
-                Debug.Log(_login_list.Count);
-                return _login_list;
+                List<string> _list = new List<string>();
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                _list = databaseQuery.ListQuery("select * from select_logins_from_users");
+                return _list;
             }
             catch
             {
                 Debug.Log("Ошибка list login, base");
             }
+
             return null;
         }
-        
+
         internal List<string> users_role()
         {
             try
             {
-                List<string> _login_list = new List<string>();
-                MySqlConnection con = BD_param.BD_con();
-                MySqlCommand cmd = new MySqlCommand();
-                cmd.Connection = con;
-                cmd.CommandText = "select * from select_role_from_users";
-                con.Open();
-                using (var reader = cmd.ExecuteReader())
-                {
-                    int i = 0;
-                    while (reader.Read())
-                    {
-                        _login_list.Add(reader.GetString(0));
-                        i++;
-                    }
-                }
-                con.Close();
-                Debug.Log(_login_list.Count);
-                return _login_list;
+                List<string> _list = new List<string>();
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                _list = databaseQuery.ListQuery("select * from select_role_from_users");
+                return _list;
             }
             catch
             {
@@ -122,24 +73,10 @@ namespace DataBase
         {
             try
             {
-                List<string> _login_list = new List<string>();
-                MySqlConnection con = BD_param.BD_con();
-                MySqlCommand cmd = new MySqlCommand();
-                cmd.Connection = con;
-                cmd.CommandText = "select name_task from select_name_task_text_task_from_task";
-                con.Open();
-                using (var reader = cmd.ExecuteReader())
-                {
-                    int i = 0;
-                    while (reader.Read())
-                    {
-                        _login_list.Add(reader.GetString(0));
-                        i++;
-                    }
-                }
-                con.Close();
-                Debug.Log(_login_list.Count);
-                return _login_list;
+                List<string> _list = new List<string>();
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                _list = databaseQuery.ListQuery("select name_task from select_name_task_text_task_from_task");
+                return _list;
             }
             catch
             {
@@ -147,35 +84,72 @@ namespace DataBase
             }
             return null;
         }
-        
+
         internal List<string> text_task()
         {
             try
             {
-                List<string> _login_list = new List<string>();
-                MySqlConnection con = BD_param.BD_con();
-                MySqlCommand cmd = new MySqlCommand();
-                cmd.Connection = con;
-                cmd.CommandText = "select text_task from select_name_task_text_task_from_task";
-                con.Open();
-                using (var reader = cmd.ExecuteReader())
-                {
-                    int i = 0;
-                    while (reader.Read())
-                    {
-                        _login_list.Add(reader.GetString(0));
-                        i++;
-                    }
-                }
-                con.Close();
-                Debug.Log(_login_list.Count);
-                return _login_list;
+                List<string> _list = new List<string>();
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                _list = databaseQuery.ListQuery("select text_task from select_name_task_text_task_from_task");
+                return _list;
             }
             catch
             {
                 Debug.Log("Ошибка text task, base");
             }
             return null;
+        }
+    }
+
+    public class DatabaseQuery
+    {
+        public object QueryBD(string query)
+        {
+            MySqlConnection con = BD_param.BD_con();
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = con;
+            if (query!="")
+            {
+                cmd.CommandText = query;
+                con.Open();
+                object DataFromBD = cmd.ExecuteScalar();
+                con.Close();
+                if (DataFromBD != null)
+                {
+                    return DataFromBD;
+                }
+            }
+            else
+            {
+                con.Open();
+                Debug.Log("Подключились " + con.Database);
+                Debug.Log(con.State);
+                con.Close();
+            }
+            return null;
+        }
+
+        public List<string> ListQuery(string query)
+        {
+            List<string> _list = new List<string>();
+            MySqlConnection con = BD_param.BD_con();
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = con;
+            cmd.CommandText = query;
+            con.Open();
+            using (var reader = cmd.ExecuteReader())
+            {
+                int i = 0;
+                while (reader.Read())
+                {
+                    _list.Add(reader.GetString(0));
+                    i++;
+                }
+            }
+            con.Close();
+            Debug.Log(_list.Count);
+            return _list;
         }
     }
 }

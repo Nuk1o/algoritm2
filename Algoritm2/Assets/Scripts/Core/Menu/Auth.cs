@@ -30,6 +30,7 @@ public class Auth : MonoBehaviour
         
         Debug.Log("Пароль при входе: "+pass_s);
         string role = _core.enter_user_app(login_s, pass_s);
+        Debug.Log($"Роль в авторизации {role}");
         switch (role)
         {
             case "admin":

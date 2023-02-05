@@ -1,7 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Text;
 using UnityEngine;
 using DataBase;
 
@@ -9,9 +6,6 @@ namespace core
 {
     public class Core : MonoBehaviour
     {
-        /*
-         * Ядро программы
-         */
         internal void add_user_db(string login, string password, string role) //Добавление пользователя
         {
             BD_base bb = new BD_base();
@@ -37,7 +31,6 @@ namespace core
             {
                 Debug.Log("Ошибка входа пользователя в Core");
             }
-
             return null;
         }
 
