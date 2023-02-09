@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
@@ -58,7 +57,13 @@ public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPoi
     public void OnDrop(PointerEventData eventData)
     {
         //Debug.Log("Отпустил");
-        if (!_spawnBlock) Instantiate(gameObject, _startBlockPosition, quaternion.identity, _parent.transform);
+        if (!_spawnBlock)
+        {
+            Instantiate(gameObject, _startBlockPosition, quaternion.identity, _parent.transform);
+            GameObject[] dots;
+            gameObject.transform.g
+            PointingBlock _pointingBlock = new PointingBlock();
+        }
         _spawnBlock = true;
     }
 }
