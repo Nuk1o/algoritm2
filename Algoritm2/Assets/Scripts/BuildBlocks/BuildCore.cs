@@ -35,14 +35,12 @@ public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPoi
     public void OnPointerDown(PointerEventData eventData)
     {
         //Debug.Log("Click");
-
         if (eventData.clickCount == 2 && eventData.button == PointerEventData.InputButton.Left)
         {
             EneterTextBlock eneterTextBlock = new EneterTextBlock(_textBlock);
             InputTextBlock inputTextBlock = new InputTextBlock(_inputField);
             inputTextBlock.SaveInputText(eneterTextBlock);
         }
-           
         if (eventData.button == PointerEventData.InputButton.Right)
         {
             Destroy(gameObject);
@@ -56,7 +54,6 @@ public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPoi
 
     public void OnDrop(PointerEventData eventData)
     {
-        GameObject[] dots = new GameObject[4];
         //Debug.Log("Отпустил");
         if (!_spawnBlock)
         {
