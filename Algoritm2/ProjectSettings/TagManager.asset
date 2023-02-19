@@ -11,6 +11,7 @@ TagManager:
   - DecisionBlock
   - ConnectorBlock
   - TerminatorBlock
+  - Arrow
   layers:
   - Default
   - TransparentFX
@@ -47,4 +48,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: block
+    uniqueID: 263176673
+    locked: 0
+  - name: line
+    uniqueID: 3179010517
     locked: 0

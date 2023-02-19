@@ -8,8 +8,6 @@ public class PointingBlock :MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     private void Awake()
     {
-        Debug.Log("Start poitns array");
-        Debug.Log(gameObject.transform.GetChild(3).gameObject);
         for (int i = 0; i < 4; i++)
         {
             dots[i] = gameObject.transform.GetChild(i).gameObject;
