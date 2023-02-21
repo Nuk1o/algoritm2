@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
@@ -10,11 +11,13 @@ public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPoi
     [SerializeField] private Canvas _canvas;
     [SerializeField] private TMP_Text _textBlock;
     [SerializeField] private GameObject _inputField;
+
+    [SerializeField] private SaveBlock _saveBlock;
     
     private RectTransform _rectTransform;
     private Vector3 _startBlockPosition;
     private bool _spawnBlock = false;
-    
+
     private void Awake()
     {
         _rectTransform = GetComponent<RectTransform>();
@@ -43,7 +46,15 @@ public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPoi
         }
         if (eventData.button == PointerEventData.InputButton.Right)
         {
-            Destroy(gameObject);
+            try
+            {
+                _saveBlock.removeGO(gameObject);
+                Destroy(gameObject);
+            }
+            catch
+            {
+                Debug.Log("Error");
+            }
         }
     }
 

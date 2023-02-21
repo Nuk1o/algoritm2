@@ -4,15 +4,13 @@
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/LineRenderCore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/LineRenderCore.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/PointingBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/PointingBlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SingleArr.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SingleArr.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/BuildCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/BuildCore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/LineRenderUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line/LineRenderUpdate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/SaveBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line/SaveBlock.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +106,7 @@
       <workItem from="1676214856050" duration="824000" />
       <workItem from="1676472043330" duration="6547000" />
       <workItem from="1676795633955" duration="9254000" />
+      <workItem from="1676986783227" duration="3477000" />
     </task>
     <servers />
   </component>
