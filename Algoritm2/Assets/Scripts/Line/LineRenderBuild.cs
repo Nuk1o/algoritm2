@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class LineRenderBuild : MonoBehaviour
 {
-    private SaveBlock _saveBlock = new SaveBlock();
-    public void AddToArray(SaveBlock _refSaveBlock)
+    [SerializeField] private SaveBlock _saveBlock;
+    public void AddToArray(GameObject _gameObject)
     {
-        _saveBlock = _refSaveBlock;
         _saveBlock.ListGOParent.Add(gameObject.transform.parent.gameObject);
+        _saveBlock.ListGO.Add(_gameObject);
         Debug.Log(gameObject.transform.parent.gameObject);
         Debug.Log(_saveBlock.ListGOParent.Count);
-        _saveBlock.LineCreate();
+        Debug.Log($"До переноса: {_gameObject.name}");
+        _saveBlock.LineCreate(_gameObject);
     }
 }
