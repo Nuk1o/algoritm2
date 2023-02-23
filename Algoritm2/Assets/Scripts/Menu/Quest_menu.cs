@@ -11,6 +11,8 @@ public class Quest_menu : MonoBehaviour
     [Space]
     [SerializeField] private GameObject _menu1;//Меню на котором мы находимся
     [SerializeField] private GameObject _menu2;//Меню которое нужно включить
+    [Space]
+    [SerializeField] private GameObject _table;
 
     private void Start()
     {
@@ -21,7 +23,10 @@ public class Quest_menu : MonoBehaviour
     {
         _menu_quest.SetActive(true);
         _quest_txt.text = _Enter_txt;
-        
+        if (_table!=null)
+        {
+            _table.SetActive(false);
+        }
         _btn_ok.onClick.AddListener(delegate { Start_quest(_menu1,_menu2,_menu_quest); });
         _btn_cancle.onClick.AddListener(delegate { Close_quest(_menu_quest); });
     }
@@ -31,10 +36,15 @@ public class Quest_menu : MonoBehaviour
         _menu1.SetActive(false);
         _menu2.SetActive(true);
         _menu_quest.SetActive(false);
+        
     }
 
     private void Close_quest(GameObject _menu_quest)
     {
         _menu_quest.SetActive(false);
+        if (_table!=null)
+        {
+            _table.SetActive(true);
+        }
     }
 }

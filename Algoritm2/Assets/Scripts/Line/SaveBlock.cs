@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SaveBlock : MonoBehaviour
 {
+    [SerializeField] private ArrayBlocks _arrayBlocks;
     public List<GameObject> ListGOParent = new List<GameObject>();
     public List<GameObject> ListGO = new List<GameObject>();
 
@@ -66,6 +67,13 @@ public class SaveBlock : MonoBehaviour
             {
                 LineCreate(_line1,4,0,_posBlock1,_posBlock2,_arrow1,_arrow2);
             }
+            
+            BlocksListClass _blocksList = new BlocksListClass(_block1, _block2);
+            Debug.Log(_blocksList.block1);
+            Debug.Log(_blocksList.block2);
+            _arrayBlocks._listBlocks.Add(_blocksList);
+            //_arrayBlocks._listBlocks.Add(_blocksList);
+
         }
         catch (Exception e)
         {

@@ -3238,6 +3238,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 1776756330010596953}
   _menu2: {fileID: 5075496043670442892}
+  _table: {fileID: 2589579472645582328}
 --- !u!114 &571120209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3282,6 +3283,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 2132102562}
+        m_TargetAssemblyTypeName: ArrayBlocks, Assembly-CSharp
+        m_MethodName: testArr
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 571120208}
         m_TargetAssemblyTypeName: Quest_menu, Assembly-CSharp
         m_MethodName: quest
@@ -10556,6 +10569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e53da16fa036c48a8df5238eae716f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _arrayBlocks: {fileID: 2132102562}
   ListGOParent: []
   ListGO: []
 --- !u!114 &2132102562
@@ -10570,10 +10584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce9e9e3d1b19464da86cec275d7db3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _go1: {fileID: 1559379955}
-  _go2: {fileID: 935068465}
-  _go3: {fileID: 485418309}
-  _go4: {fileID: 1418703813}
 --- !u!1 &2138731665
 GameObject:
   m_ObjectHideFlags: 0
@@ -21297,6 +21307,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 3214346484161848526}
   _menu2: {fileID: 5325065038282590882}
+  _table: {fileID: 0}
 --- !u!222 &5678947225039496371
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21871,6 +21882,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 3955083665486552767}
   _menu2: {fileID: 5325065038282590882}
+  _table: {fileID: 0}
 --- !u!222 &6114159579297825443
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23719,6 +23731,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 3214346484161848526}
   _menu2: {fileID: 8169550887431873524}
+  _table: {fileID: 0}
 --- !u!1 &7105697842594019316
 GameObject:
   m_ObjectHideFlags: 0
@@ -24367,6 +24380,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 5325065038282590882}
   _menu2: {fileID: 3955083665486552767}
+  _table: {fileID: 0}
 --- !u!1 &7485428415983519227
 GameObject:
   m_ObjectHideFlags: 0
@@ -26330,6 +26344,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 6535544978653146521}
   _menu2: {fileID: 3955083665486552767}
+  _table: {fileID: 0}
 --- !u!224 &8635640049891805167
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26453,6 +26468,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 3955083665486552767}
   _menu2: {fileID: 8169550887431873524}
+  _table: {fileID: 0}
 --- !u!224 &8654824268897861696
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26839,6 +26855,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 5075496043670442892}
   _menu2: {fileID: 8169550887431873524}
+  _table: {fileID: 0}
 --- !u!224 &8868791077538839352
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26931,6 +26948,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 1776756330010596953}
   _menu2: {fileID: 5075496043670442892}
+  _table: {fileID: 2589579472645582328}
 --- !u!224 &8974051489377550280
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27431,6 +27449,7 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 4815886847823714522}
   _menu2: {fileID: 8169550887431873524}
+  _table: {fileID: 0}
 --- !u!222 &9200856790674911650
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27458,3 +27477,4 @@ MonoBehaviour:
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 4815886848272806126}
   _menu2: {fileID: 8169550887431873524}
+  _table: {fileID: 0}

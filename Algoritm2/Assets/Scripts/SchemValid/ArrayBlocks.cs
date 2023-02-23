@@ -1,29 +1,15 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ArrayBlocks : MonoBehaviour
 {
-    [SerializeField] private GameObject _go1;
-    [SerializeField] private GameObject _go2;
-    [SerializeField] private GameObject _go3;
-    [SerializeField] private GameObject _go4;
-    private List<BlocksListClass> _listBlocks;
-    
-    private void Start()
+    public List<BlocksListClass> _listBlocks = new List<BlocksListClass>();
+    public void testArr()
     {
-        _listBlocks = new List<BlocksListClass>()
-        {
-            new BlocksListClass(_go1,_go2)
-        };
-        BlocksListClass _blocksList = new BlocksListClass(_go3, _go4);
-        Debug.Log(_listBlocks.Count);
-        _listBlocks.Add(_blocksList);
-        Debug.Log(_listBlocks.Count);
         foreach (var VARIABLE in _listBlocks)
         {
-            Debug.Log(VARIABLE.block1);
-            Debug.Log(VARIABLE.block2);
+            Debug.Log($"Первый блок: {VARIABLE.block1}");
+            Debug.Log($"Второй блок: {VARIABLE.block2}");
         }
     }
 }
