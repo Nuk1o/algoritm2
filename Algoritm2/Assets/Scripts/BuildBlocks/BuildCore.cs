@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
@@ -48,7 +47,7 @@ public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPoi
         {
             try
             {
-                _saveBlock.removeGO(gameObject);
+                _saveBlock.RemoveGO(gameObject);
                 Destroy(gameObject);
             }
             catch

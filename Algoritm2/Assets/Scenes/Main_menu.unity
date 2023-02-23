@@ -10509,6 +10509,7 @@ GameObject:
   - component: {fileID: 2132102559}
   - component: {fileID: 2132102558}
   - component: {fileID: 2132102561}
+  - component: {fileID: 2132102562}
   m_Layer: 0
   m_Name: -----Core-----
   m_TagString: Untagged
@@ -10557,6 +10558,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListGOParent: []
   ListGO: []
+--- !u!114 &2132102562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132102557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce9e9e3d1b19464da86cec275d7db3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _go1: {fileID: 1559379955}
+  _go2: {fileID: 935068465}
+  _go3: {fileID: 485418309}
+  _go4: {fileID: 1418703813}
 --- !u!1 &2138731665
 GameObject:
   m_ObjectHideFlags: 0
