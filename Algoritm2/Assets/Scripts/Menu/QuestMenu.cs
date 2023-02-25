@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Quest_menu : MonoBehaviour
+public class QuestMenu : MonoBehaviour
 {
     [SerializeField] private GameObject _menu_quest;//Меню с вопросом
     [SerializeField] private TMP_Text _quest_txt;//Текст вопроса на отобразившимся меню
@@ -36,7 +36,6 @@ public class Quest_menu : MonoBehaviour
         _menu1.SetActive(false);
         _menu2.SetActive(true);
         _menu_quest.SetActive(false);
-        
     }
 
     private void Close_quest(GameObject _menu_quest)

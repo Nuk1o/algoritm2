@@ -1,5 +1,5 @@
 using UnityEngine;
-public class Exit_app : MonoBehaviour
+public class ExitApp : MonoBehaviour
 {
     public void exit()
     {
