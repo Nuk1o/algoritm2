@@ -2,7 +2,7 @@ using MySql.Data.MySqlClient;
 
 namespace DataBase
 {
-    public class BD_connection
+    public class BDconnection
     {
         public static MySqlConnection BD_con(string ds, string port, string usr, string pass, string db)
         {

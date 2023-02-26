@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace DataBase
 {
-    public class BD_base
+    public class BDbase
     {
         internal void add_user(string login, string password, string role)
         {
@@ -106,7 +106,7 @@ namespace DataBase
     {
         public object QueryBD(string query)
         {
-            MySqlConnection con = BD_param.BD_con();
+            MySqlConnection con = BDparam.BD_con();
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = con;
             if (query!="")
@@ -133,7 +133,7 @@ namespace DataBase
         public List<string> ListQuery(string query)
         {
             List<string> _list = new List<string>();
-            MySqlConnection con = BD_param.BD_con();
+            MySqlConnection con = BDparam.BD_con();
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = con;
             cmd.CommandText = query;

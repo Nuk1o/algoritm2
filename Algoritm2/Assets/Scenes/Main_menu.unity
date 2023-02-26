@@ -6272,6 +6272,8 @@ MonoBehaviour:
   _tmpInputField: {fileID: 791860464}
   _btn_cancle: {fileID: 1497078139}
   _btn_ok: {fileID: 2067210934}
+  _button1: {fileID: 956874893}
+  _button2: {fileID: 1043045081}
 --- !u!1 &965004286
 GameObject:
   m_ObjectHideFlags: 0
@@ -7107,6 +7109,8 @@ MonoBehaviour:
   _tmpInputField: {fileID: 791860464}
   _btn_cancle: {fileID: 1497078139}
   _btn_ok: {fileID: 2067210934}
+  _button1: {fileID: 956874893}
+  _button2: {fileID: 1043045081}
 --- !u!1 &1081221808
 GameObject:
   m_ObjectHideFlags: 0

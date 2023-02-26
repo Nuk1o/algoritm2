@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace DataBase
 {
-    public class BD_param
+    public class BDparam
     {
         public static MySqlConnection BD_con()
         {
@@ -16,7 +16,7 @@ namespace DataBase
             string usr = Environment.GetEnvironmentVariable("USR");
             string pass = Environment.GetEnvironmentVariable("PASS");
             string db = Environment.GetEnvironmentVariable("DB");
-            return BD_connection.BD_con(ds,port,usr,pass,db);
+            return BDconnection.BD_con(ds,port,usr,pass,db);
         }
     }
 }
