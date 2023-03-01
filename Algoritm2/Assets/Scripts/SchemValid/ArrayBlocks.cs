@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ArrayBlocks : MonoBehaviour
@@ -8,8 +9,13 @@ public class ArrayBlocks : MonoBehaviour
     {
         foreach (var VARIABLE in _listBlocks)
         {
-            Debug.Log($"Первый блок: {VARIABLE.block1}");
-            Debug.Log($"Второй блок: {VARIABLE.block2}");
+            //Debug.Log($"Первый блок: {VARIABLE.block1}");
+            //Debug.Log($"Второй блок: {VARIABLE.block2}");
+            
+            TMP_Text _tmpText1 = VARIABLE.block1.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
+            TMP_Text _tmpText2 = VARIABLE.block2.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
+            Debug.Log($"Алгоритм: {_tmpText1.text}");
+            Debug.Log($"Алгоритм: {_tmpText2.text}");
         }
     }
 }
