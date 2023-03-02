@@ -3,6 +3,7 @@ using UnityEngine;
 public class LineRenderUpdate : MonoBehaviour
 {
     private LineRenderer _line;
+    private EdgeCollider2D _edgeCollider2D;
     private bool _redyUpdate = false;
     private Vector3 _pos1,_pos2,_pos3,_pos4 = Vector3.zero;
     private Vector3 _posArrow1, _posArrow2;
@@ -31,6 +32,8 @@ public class LineRenderUpdate : MonoBehaviour
             {
                 //Debug.Log($"Стрелка 1 {_arrow1GO}\n Стрелка 2 {_arrow2GO}\n Кол-во {_countPoints}\n Смещения {_blockOffsetNew}");
                 _line = GetComponent<LineRenderer>();
+                _edgeCollider2D = GetComponent<EdgeCollider2D>();
+                
                 _posArrow1= _arrow1GO.transform.position;
                 _posArrow2 = _arrow2GO.transform.position;
                 switch (_countPoints)
@@ -73,6 +76,13 @@ public class LineRenderUpdate : MonoBehaviour
                         _line.SetPosition(1,_pos2);
                         _line.SetPosition(2,_pos3);
                         _line.SetPosition(3,_pos4);
+                        
+                        Vector2[] points = _edgeCollider2D.points;
+                        points.SetValue(new Vector2(_pos1.x, _pos1.y).normalized, 0);
+                        points.SetValue(new Vector2(_pos2.x, _pos2.y).normalized, 1);
+                        points.SetValue(new Vector2(_pos3.x, _pos3.y).normalized, 2);
+                        points.SetValue(new Vector2(_pos4.x, _pos4.y).normalized, 3);
+                        _edgeCollider2D.points = points;
                         break;
                 }
             }
