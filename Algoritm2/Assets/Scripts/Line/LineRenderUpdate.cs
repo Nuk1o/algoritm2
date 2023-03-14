@@ -78,10 +78,10 @@ public class LineRenderUpdate : MonoBehaviour
                         _line.SetPosition(3,_pos4);
                         
                         Vector2[] points = _edgeCollider2D.points;
-                        points.SetValue(new Vector2(_pos1.x, _pos1.y).normalized, 0);
-                        points.SetValue(new Vector2(_pos2.x, _pos2.y).normalized, 1);
-                        points.SetValue(new Vector2(_pos3.x, _pos3.y).normalized, 2);
-                        points.SetValue(new Vector2(_pos4.x, _pos4.y).normalized, 3);
+                        points.SetValue(new Vector2(_pos1.x, _pos1.y), 0);
+                        points.SetValue(new Vector2(_pos2.x, _pos2.y*(-260)), 1);
+                        points.SetValue(new Vector2(_pos3.x*260, _pos3.y*(-260)), 2);
+                        points.SetValue(new Vector2(_pos4.x*260, _pos4.y*(-260)), 3);
                         _edgeCollider2D.points = points;
                         break;
                 }
