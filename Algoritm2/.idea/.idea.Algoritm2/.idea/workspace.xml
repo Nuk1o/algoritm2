@@ -2,10 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/LineRenderUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line/LineRenderUpdate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/BuildCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/BuildCore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/BuildCore.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/BuildCore.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/PointingBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/PointingBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildBlocks/PointingBlock.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/PointingBlock.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Core.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/Core.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Core.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/Core.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BDbase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDbase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BDbase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDbase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BDconnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDconnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BDconnection.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDconnection.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BDparam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDparam.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DataBase/BDparam.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDparam.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DotEnv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/DotEnv.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DotEnv.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/DotEnv.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu/Admin_panel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Admin_panel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu/Admin_panel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Admin_panel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu/Auth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Auth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu/Auth.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Auth.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu/Registration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Registration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu/Registration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Registration.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu/Teacher_panel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Teacher_panel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Menu/Teacher_panel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Teacher_panel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Pass_encryption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/Pass_encryption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Pass_encryption.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/Pass_encryption.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/LineRenderBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/LineRenderBuild.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderBuild.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/LineRenderUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderUpdate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/LineRenderUpdate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderUpdate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/SaveBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/SaveBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/SaveBlock.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/SaveBlock.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/ExitApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/ExitApp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/ExitApp.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/ExitApp.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/QuestMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/QuestMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/QuestMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/QuestMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/TaskMenuiCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/TaskMenuiCreate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/TaskMenuiCreate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/TaskMenuiCreate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SchemValid.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SchemValid/ArrayBlocks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SchemValid/ArrayBlocks.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +158,7 @@
       <workItem from="1677409388549" duration="3865000" />
       <workItem from="1677702718945" duration="920000" />
       <workItem from="1677783990743" duration="3147000" />
+      <workItem from="1678903546427" duration="3593000" />
     </task>
     <servers />
   </component>

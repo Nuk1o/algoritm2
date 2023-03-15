@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPointerDownHandler, IDragHandler, IDropHandler
+public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDropHandler
 {
     [SerializeField] private GameObject _parent;
     [SerializeField] private Canvas _canvas;
@@ -22,16 +22,6 @@ public class BuildCore : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IPoi
         _rectTransform = GetComponent<RectTransform>();
         _startBlockPosition = _rectTransform.gameObject.transform.position;
         Debug.Log($"Начальная позиция: {_startBlockPosition}");
-    }
-
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        //Debug.Log("Начал переносить");
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        //Debug.Log("Остановился переносить");
     }
 
     public void OnPointerDown(PointerEventData eventData)
