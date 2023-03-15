@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class CheckInsertionBlock : MonoBehaviour
 {
-    [SerializeField] private GameObject _block;
-    private const int _offsetHeight = 893; 
-    private const int _offsetWwidth = 895; 
+    private const float _offsetHeightUp = 4; 
+    private const float _offsetHeightDown = -4; 
+    private const float _offsetWwidthLeft = -3.3f; 
+    private const float _offsetWwidthRight = 3.3f; 
     private void FixedUpdate()
     {
         CheckBlock();
@@ -12,10 +13,10 @@ public class CheckInsertionBlock : MonoBehaviour
 
     private void CheckBlock()
     {
-        if (_block.transform.position.y > _offsetHeight || _block.transform.position.x > _offsetWwidth ||
-            _block.transform.position.y < -_offsetHeight || _block.transform.position.x < -_offsetWwidth)
+        if (gameObject.transform.position.y > _offsetHeightUp||gameObject.transform.position.y < _offsetHeightDown||
+            gameObject.transform.position.x > _offsetWwidthRight || gameObject.transform.position.x < _offsetWwidthLeft)
         {
-            _block.transform.position = Vector3.one;
+            gameObject.transform.position = Vector3.one;
         }
     }
 }
