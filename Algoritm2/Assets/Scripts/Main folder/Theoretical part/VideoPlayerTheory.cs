@@ -19,21 +19,8 @@ public class VideoPlayerTheory : MonoBehaviour
     {
         SlideVideo();
         StartBtnVideo();
-        StartPauseVideo();
     }
-
-    private void StartPauseVideo()
-    {
-        if (Input.GetButtonDown("Jump")&&_videoPlayer.isPaused)
-        {
-            _videoPlayer.Play();
-        }
-        if (Input.GetButtonDown("Jump")&&_videoPlayer.isPlaying)
-        {
-            _videoPlayer.Pause();
-        }
-    }
-
+    
     private void SlideVideo()
     {
         _slider.onValueChanged.AddListener(delegate{ SliderValue(); });
