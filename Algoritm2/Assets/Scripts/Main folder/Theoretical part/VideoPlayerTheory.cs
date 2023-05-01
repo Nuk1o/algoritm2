@@ -9,16 +9,20 @@ public class VideoPlayerTheory : MonoBehaviour
     [SerializeField] private Button _btnPlay;
     [SerializeField] private Slider _slider;
 
+    private VideoView _videoView;
+
     private void Start()
     {
         _slider.maxValue = _videoPlayer.frameCount;
         _slider.value = 0;
+        _videoView = new VideoView();
     }
 
     private void Update()
     {
         SlideVideo();
         StartBtnVideo();
+        _videoView.VideoViewCheck(_slider,_videoPlayer);
     }
     
     private void SlideVideo()

@@ -1,3 +1,4 @@
+using System;
 using MySql.Data.MySqlClient;
 using UnityEngine;
 using System.Collections.Generic;
@@ -100,6 +101,38 @@ namespace DataBase
             }
             return null;
         }
+
+        internal string student_add_amount_task(int idUser, int amout)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                object queryBD = databaseQuery.QueryBD($"add_amount_task_student('{idUser}','{amout}')");
+                Debug.Log(queryBD);
+            }
+            catch
+            {
+                Debug.Log("Ошибка student_add_amount_task");
+            }
+
+            return null;
+        }
+        internal List<string> get_id_user(string login)
+        {
+            try
+            {
+                List<string> _list = new List<string>();
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                _list = databaseQuery.ListQuery($"Call get_id_user('{login}')");
+                return _list;
+            }
+            catch
+            {
+                Debug.Log("Ошибка get_id_user");
+            }
+            return null;
+        }
+
     }
 
     public class DatabaseQuery

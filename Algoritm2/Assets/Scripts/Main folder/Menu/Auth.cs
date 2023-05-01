@@ -28,7 +28,7 @@ public class Auth : MonoBehaviour
         string login_s = Encoding.UTF8.GetString(decrypted);
         string pass_s = Convert.ToBase64String(encrypted);
         
-        //Debug.Log("Пароль при входе: "+pass_s);
+        Debug.Log("Пароль при входе: "+pass_s);
         string role = _core.enter_user_app(login_s, pass_s);
         //Debug.Log($"Роль в авторизации {role}");
         switch (role)
@@ -46,5 +46,8 @@ public class Auth : MonoBehaviour
                 _ui_auth.SetActive(false);
                 break;
         }
+        SafePlayerPrefs _safePlayerPrefs = new SafePlayerPrefs();
+        PlayerPrefs.SetString("LoginUser",login_s);
+        _safePlayerPrefs.Save("first","LoginUser");
     }
 }
