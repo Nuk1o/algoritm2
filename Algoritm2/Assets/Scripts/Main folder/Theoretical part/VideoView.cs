@@ -27,8 +27,7 @@ public class VideoView : MonoBehaviour
             {
                 string loginUser = PlayerPrefs.GetString("LoginUser");
                 BDbase _bDbase = new BDbase();
-                List<string> _list = _bDbase.get_id_user(loginUser);
-                int idUser = Convert.ToInt32(_list[_list.Count-1]);
+                int idUser = Convert.ToInt32(_bDbase.get_id_user(loginUser));
                 try
                 {
                     int amout = Convert.ToInt32(_bDbase.get_amount_theory(idUser));

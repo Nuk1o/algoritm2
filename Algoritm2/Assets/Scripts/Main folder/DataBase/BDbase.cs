@@ -117,14 +117,13 @@ namespace DataBase
 
             return null;
         }
-        internal List<string> get_id_user(string login)
+        internal string get_id_user(string login)
         {
             try
             {
-                List<string> _list = new List<string>();
                 DatabaseQuery databaseQuery = new DatabaseQuery();
-                _list = databaseQuery.ListQuery($"Call get_id_user('{login}')");
-                return _list;
+                string query = databaseQuery.strQuery($"Call get_id_user('{login}')");
+                return query;
             }
             catch
             {
@@ -148,7 +147,6 @@ namespace DataBase
 
             return null;
         }
-
     }
 
     public class DatabaseQuery
