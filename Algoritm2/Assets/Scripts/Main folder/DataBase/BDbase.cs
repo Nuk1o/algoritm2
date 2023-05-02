@@ -133,6 +133,22 @@ namespace DataBase
             return null;
         }
 
+        internal string get_amount_theory(int idUser)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                string query = databaseQuery.strQuery($"Call get_amount_theory('{idUser}')");
+                return query;
+            }
+            catch
+            {
+                Debug.Log("Ошибка get_amount_theory");
+            }
+
+            return null;
+        }
+
     }
 
     public class DatabaseQuery
@@ -183,6 +199,19 @@ namespace DataBase
             con.Close();
             Debug.Log(_list.Count);
             return _list;
+        }
+
+        public string strQuery(string query)
+        {
+            MySqlConnection con = BDparam.BD_con();
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = con;
+            cmd.CommandText = query;
+            con.Open();
+            object objStr = cmd.ExecuteScalar();
+            con.Close();
+            Debug.Log(objStr.ToString());
+            return objStr.ToString();
         }
     }
 }

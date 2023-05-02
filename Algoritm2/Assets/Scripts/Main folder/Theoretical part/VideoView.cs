@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using DataBase;
 using UnityEngine;
@@ -7,6 +8,7 @@ using UnityEngine.Video;
 public class VideoView : MonoBehaviour
 {
     private BDbase _bDbase;
+    private bool _isAdd = false;
     private void Start()
     {
         _bDbase = new BDbase();
@@ -14,8 +16,9 @@ public class VideoView : MonoBehaviour
 
     public void VideoViewCheck(Slider _slider, VideoPlayer _videoPlayer)
     {
-        if (_slider.maxValue == _slider.value || _videoPlayer.length == _videoPlayer.frame)
+        if ((_slider.maxValue == _slider.value || _videoPlayer.length == _videoPlayer.frame)&&_isAdd==false)
         {
+            _isAdd = true;
             _slider.value = 0;
             _videoPlayer.frame = 0;
             Debug.Log("Конец видео");
@@ -25,7 +28,17 @@ public class VideoView : MonoBehaviour
                 string loginUser = PlayerPrefs.GetString("LoginUser");
                 BDbase _bDbase = new BDbase();
                 List<string> _list = _bDbase.get_id_user(loginUser);
-                Debug.Log(_list[_list.Count-1]);
+                int idUser = Convert.ToInt32(_list[_list.Count-1]);
+                try
+                {
+                    int amout = Convert.ToInt32(_bDbase.get_amount_theory(idUser));
+                    _bDbase.student_add_amount_task(idUser, amout+1);
+                }
+                catch
+                {
+                    Debug.Log("Ошибка сверху");
+                    _bDbase.student_add_amount_task(idUser, 1);
+                }
             }
             
         }

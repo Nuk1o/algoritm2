@@ -4,7 +4,6 @@ using System.Text;
 
 public class SafePlayerPrefs : MonoBehaviour
 {
-
     private string GetHash(SHA256 hash, string input)
     {
         byte[] data = hash.ComputeHash(Encoding.UTF8.GetBytes(input));
@@ -15,8 +14,6 @@ public class SafePlayerPrefs : MonoBehaviour
         }
         return sBuilder.ToString();
     }
-
-    // Сохраняем контрольную сумму
     public void Save(string key, string _namePrefs)
     {
         try
@@ -30,20 +27,24 @@ public class SafePlayerPrefs : MonoBehaviour
         {
             Debug.Log("Error Save");
         }
-        
     }
-
-    // Проверяем, изменялись ли данные
     public bool HasBeenEdited (string key, string _namePrefs)
     {
-        if (! PlayerPrefs.HasKey("CHECKSUM" + key))
-            return true;
+        try
+        {
+            if (! PlayerPrefs.HasKey("CHECKSUM" + key))
+                return true;
 
-        string checksumSaved = PlayerPrefs.GetString("CHECKSUM" + key);
-        using SHA256 hash = SHA256.Create();
-        string _prefs = PlayerPrefs.GetString(_namePrefs);
-        string checksumReal = GetHash(hash, _prefs);
-
-        return checksumSaved.Equals(checksumReal);
+            string checksumSaved = PlayerPrefs.GetString("CHECKSUM" + key);
+            using SHA256 hash = SHA256.Create();
+            string _prefs = PlayerPrefs.GetString(_namePrefs);
+            string checksumReal = GetHash(hash, _prefs);
+            return checksumSaved.Equals(checksumReal);
+        }
+        catch
+        {
+            Debug.Log("HasBeenEdited");
+        }
+        return false;
     }
 }
