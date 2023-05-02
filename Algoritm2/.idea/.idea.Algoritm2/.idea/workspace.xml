@@ -4,17 +4,7 @@
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDbase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDbase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Registration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Registration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/Core.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/Core.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/WindowRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/WindowRestart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/SaveBlock.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/SaveBlock.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +109,7 @@
       <workItem from="1678903546427" duration="5455000" />
       <workItem from="1679388283060" duration="3165000" />
       <workItem from="1682972931997" duration="11634000" />
-      <workItem from="1683023012844" duration="10951000" />
+      <workItem from="1683023012844" duration="13040000" />
     </task>
     <servers />
   </component>
