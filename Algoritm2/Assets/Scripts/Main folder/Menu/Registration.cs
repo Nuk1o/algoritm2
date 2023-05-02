@@ -2,6 +2,7 @@ using System;
 using System.Text;
 using UnityEngine;
 using core;
+using DataBase;
 using TMPro;
 
 public class Registration : MonoBehaviour
@@ -32,10 +33,12 @@ public class Registration : MonoBehaviour
             {
                 role = "teacher";
                 _core.add_user_db(login_s,pass_s,role);
+                _core.add_teacher(login_s);
             }
             else
             {
                 _core.add_user_db(login_s,pass_s,role);
+                _core.add_student(login_s);
             }
         }
         catch

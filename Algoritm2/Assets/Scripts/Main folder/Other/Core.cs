@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using DataBase;
@@ -10,6 +11,20 @@ namespace core
         {
             BDbase bb = new BDbase();
             bb.add_user(login,password,role);
+        }
+
+        internal void add_teacher(string login)
+        {
+            BDbase _bDbase = new BDbase();
+            int idUser = Convert.ToInt32(_bDbase.get_id_user(login));
+            _bDbase.add_teacher(idUser,login);
+        }
+        
+        internal void add_student(string login)
+        {
+            BDbase _bDbase = new BDbase();
+            int idUser = Convert.ToInt32(_bDbase.get_id_user(login));
+            _bDbase.add_student(idUser);
         }
 
         internal string enter_user_app(string login, string password) //Вход пользователя

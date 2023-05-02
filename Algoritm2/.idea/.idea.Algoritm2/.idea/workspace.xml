@@ -3,195 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Admin.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Admin.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Admin_add_user.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Admin_add_user.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Auth.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Auth.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Practice.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Practice.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Question.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Question.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Student.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Student.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Teacher.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Teacher.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Teacher1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Teacher1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Theory.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI-Theory.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI_Result.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI_Result.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow/caret-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow/caret-down.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow/caret-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow/caret-left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow/caret-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow/caret-right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow/caret-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Arrow/caret-up.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Данные.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Данные.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Подготовка.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Подготовка.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Предопределенный процесс.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Предопределенный процесс.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Процесс.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Процесс.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Решение.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Решение.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Соединитель.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Соединитель.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Терминатор.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Blocks/Терминатор.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/COPYRIGHT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/COPYRIGHT.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/LICENSE.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/Montserrat-Light.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/Montserrat-Regular.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/tmp_fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/tmp_fonts/Montserrat-Light SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/tmp_fonts/Montserrat-Light SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/tmp_fonts/Montserrat-Regular SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Fonts/tmp_fonts/Montserrat-Regular SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Materials/Line.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Materials/Line.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Algoritm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Algoritm.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Menu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Table.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/box-arrow-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/box-arrow-left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/house-door-fill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/house-door-fill.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/person-fill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/person-fill.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Логотип.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Логотип.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Меню.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Admin Window/Меню.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Admin.spriteatlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Admin.spriteatlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Auth.spriteatlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Auth.spriteatlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Prac.spriteatlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Prac.spriteatlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Quest.spriteatlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Quest.spriteatlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Result.spriteatlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Result.spriteatlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Student.spriteatlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Student.spriteatlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Teacher.spriteatlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Teacher.spriteatlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Theory.spriteatlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Atlas/UI-Theory.spriteatlas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Algoritm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Algoritm.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Btn.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Left_side.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Left_side.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Line.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Right_side.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Right_side.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/arrow-down-short.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/arrow-down-short.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Логотип.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Authorization/Логотип.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice/Table-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice/Table-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice/Table-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice/Table-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice/Table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice/Table.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice/terminal-fill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Practice/terminal-fill.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Question.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Question/Rectangle 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Question/Rectangle 3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Question/Кнопка.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Question/Кнопка.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result/Верно!.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result/Верно!.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result/Выход.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result/Выход.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result/Логотип.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result/Логотип.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result/Меню.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Result/Меню.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Algoritm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Algoritm.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Menu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Rectangle 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Rectangle 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Rectangle 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Rectangle 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/book-fill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/book-fill.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/house-door-fill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/house-door-fill.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/pen-fill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/pen-fill.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Логотип.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Логотип.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Меню.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Student Window/Меню.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Table-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Table-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Table-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Table-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Table.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Выход.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Выход.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Логотип.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Логотип.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Меню.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Teacher's Window/Меню.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Theory.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Theory/Algoritm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Theory/Algoritm.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Theory/Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Theory/Menu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Theory/Table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/UI/Theory/Table.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video/New Render Texture.renderTexture" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video/New Render Texture.renderTexture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video/bgVideo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video/bgVideo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video/Блок схема алгоритма (часть 1).mp4.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video/Блок схема алгоритма (часть 2).mp4.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video/Блок схема алгоритма (часть 3).mp4.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Video/Блок схема алгоритма (часть 4).mp4.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/QuestMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/QuestMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/StudentPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/StudentPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part/VideoPlayerTheory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part/VideoPlayerTheory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part/VideoView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part/VideoView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDbase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDbase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Registration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Registration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/Core.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/Core.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/WindowRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/WindowRestart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/SaveBlock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/SaveBlock.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +119,7 @@
       <workItem from="1678903546427" duration="5455000" />
       <workItem from="1679388283060" duration="3165000" />
       <workItem from="1682972931997" duration="11634000" />
-      <workItem from="1683023012844" duration="4379000" />
+      <workItem from="1683023012844" duration="10951000" />
     </task>
     <servers />
   </component>

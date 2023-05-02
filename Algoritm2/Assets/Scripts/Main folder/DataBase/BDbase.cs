@@ -114,9 +114,54 @@ namespace DataBase
             {
                 Debug.Log("Ошибка student_add_amount_task");
             }
-
             return null;
         }
+        
+        internal string add_task_teacher(int idTeach, string nameTask, string textTask, string algoritmTask)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                object queryBD = databaseQuery.QueryBD($"add_task_teacher('{idTeach}','{nameTask}','{textTask}','{algoritmTask}')");
+                Debug.Log(queryBD);
+            }
+            catch
+            {
+                Debug.Log("Ошибка add_task_teacher");
+            }
+            return null;
+        }
+        
+        internal string add_teacher(int idUser, string login)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                object queryBD = databaseQuery.QueryBD($"add_teacher('{idUser}','{login}')");
+                Debug.Log(queryBD);
+            }
+            catch
+            {
+                Debug.Log("Ошибка add_teacher");
+            }
+            return null;
+        }
+        
+        internal string add_student(int idUser)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                object queryBD = databaseQuery.QueryBD($"add_student('{idUser}')");
+                Debug.Log(queryBD);
+            }
+            catch
+            {
+                Debug.Log("Ошибка add_student");
+            }
+            return null;
+        }
+        
         internal string get_id_user(string login)
         {
             try
@@ -128,6 +173,36 @@ namespace DataBase
             catch
             {
                 Debug.Log("Ошибка get_id_user");
+            }
+            return null;
+        }
+        
+        internal string get_id_teach(string login)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                string query = databaseQuery.strQuery($"Call get_id_teach('{login}')");
+                return query;
+            }
+            catch
+            {
+                Debug.Log("Ошибка get_id_teach");
+            }
+            return null;
+        }
+        
+        internal string get_amount_task_teacher(string login)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                string query = databaseQuery.strQuery($"Call get_amount_task_teacher('{login}')");
+                return query;
+            }
+            catch
+            {
+                Debug.Log("Ошибка get_amount_task_teacher");
             }
             return null;
         }
