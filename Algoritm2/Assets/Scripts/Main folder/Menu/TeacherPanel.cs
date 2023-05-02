@@ -4,7 +4,7 @@ using UnityEngine;
 using core;
 using Unity.Mathematics;
 
-public class Admin_panel : MonoBehaviour
+public class TeacherPanel : MonoBehaviour
 {
     [SerializeField] private GameObject _row;
     [SerializeField] private GameObject _parent;
@@ -14,15 +14,17 @@ public class Admin_panel : MonoBehaviour
     {
         core.Core _core = new Core();
         
-        List<string> _login_users_bd = new List<string>();
-        List<string> _role_users_bd = new List<string>();
-        
-        _login_users_bd = _core.users_admin_panel_login();
-        _role_users_bd = _core.users_admin_panel_role();
+        List<string> _name_task_bd = new List<string>();
+        List<string> _text_task_bd = new List<string>();
 
-        int _count_R = _login_users_bd.Count;
+        _name_task_bd = _core.name_task_panel_teach();
+        _text_task_bd = _core.text_task_panel_teach();
+
+        Debug.Log(_name_task_bd[0]);
+        Debug.Log(_text_task_bd[0]);
         
-        
+        int _count_R = _name_task_bd.Count;
+
         while (_count_R != 0)
         {
             GameObject _new_row = Instantiate(_row,Vector3.zero, quaternion.identity,_parent.transform);
@@ -30,11 +32,10 @@ public class Admin_panel : MonoBehaviour
             _count_R--;
             GameObject _go1 = tmp_texts[0].gameObject;
             GameObject _go2 = tmp_texts[1].gameObject;
-            TMP_Text _login = _go1.GetComponent<TMP_Text>();
-            TMP_Text _role = _go2.GetComponent<TMP_Text>();
-            _login.text = _login_users_bd[_count_R];
-            _role.text = _role_users_bd[_count_R];
+            TMP_Text _name = _go1.GetComponent<TMP_Text>();
+            TMP_Text _text = _go2.GetComponent<TMP_Text>();
+            _name.text = _name_task_bd[_count_R];
+            _text.text = _text_task_bd[_count_R];
         }
-        DestroyImmediate(_row);
     }
 }

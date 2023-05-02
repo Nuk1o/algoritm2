@@ -20,8 +20,8 @@ public class Registration : MonoBehaviour
             core.Core _core = new Core();
             string login_user = _login.text;
             string password_user = _password.text;
-            var encrypted = Pass_encryption.Encrypt(Encoding.UTF8.GetBytes(login_user), password_user, salt, iv);
-            var decrypted = Pass_encryption.Decrypt(encrypted, password_user, salt, iv);
+            var encrypted = PassEncryption.Encrypt(Encoding.UTF8.GetBytes(login_user), password_user, salt, iv);
+            var decrypted = PassEncryption.Decrypt(encrypted, password_user, salt, iv);
             
             string login_s = Encoding.UTF8.GetString(decrypted);
             string pass_s = Convert.ToBase64String(encrypted);

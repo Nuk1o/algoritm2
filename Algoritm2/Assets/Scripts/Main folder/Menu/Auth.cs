@@ -22,8 +22,8 @@ public class Auth : MonoBehaviour
         core.Core _core = new Core();
         string password = _password.text;
         
-        var encrypted = Pass_encryption.Encrypt(Encoding.UTF8.GetBytes(_login.text), password, salt, iv);
-        var decrypted = Pass_encryption.Decrypt(encrypted, password, salt, iv);
+        var encrypted = PassEncryption.Encrypt(Encoding.UTF8.GetBytes(_login.text), password, salt, iv);
+        var decrypted = PassEncryption.Decrypt(encrypted, password, salt, iv);
             
         string login_s = Encoding.UTF8.GetString(decrypted);
         string pass_s = Convert.ToBase64String(encrypted);
