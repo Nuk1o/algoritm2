@@ -11,7 +11,7 @@ public class VideoView : MonoBehaviour
     private bool _isAdd = false;
     private void Start()
     {
-        _bDbase = new BDbase();
+        
     }
 
     public void VideoViewCheck(Slider _slider, VideoPlayer _videoPlayer)
@@ -26,7 +26,7 @@ public class VideoView : MonoBehaviour
             if (_safePlayerPrefs.HasBeenEdited("first","LoginUser"))
             {
                 string loginUser = PlayerPrefs.GetString("LoginUser");
-                BDbase _bDbase = new BDbase();
+                _bDbase = new BDbase();
                 int idUser = Convert.ToInt32(_bDbase.get_id_user(loginUser));
                 try
                 {
@@ -39,7 +39,6 @@ public class VideoView : MonoBehaviour
                     _bDbase.student_add_amount_task(idUser, 1);
                 }
             }
-            
         }
     }
 }

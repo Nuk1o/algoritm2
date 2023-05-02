@@ -10,8 +10,7 @@ public class VideoPlayerTheory : MonoBehaviour
     [SerializeField] private Slider _slider;
 
     private VideoView _videoView;
-
-    private void Start()
+    public void StartVideo()
     {
         _slider.maxValue = _videoPlayer.frameCount;
         _slider.value = 0;

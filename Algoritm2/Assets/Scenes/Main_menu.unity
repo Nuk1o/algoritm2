@@ -602,6 +602,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1916306338}
+        m_TargetAssemblyTypeName: VideoPlayerTheory, Assembly-CSharp
+        m_MethodName: StartVideo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &54491930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1858,7 +1870,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0.99999654}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2159,6 +2171,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916306338}
+        m_TargetAssemblyTypeName: VideoPlayerTheory, Assembly-CSharp
+        m_MethodName: StartVideo
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3826,7 +3850,7 @@ Canvas:
   m_GameObject: {fileID: 530663601}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -4421,6 +4445,7 @@ MonoBehaviour:
   _menu1: {fileID: 1776756330010596953}
   _menu2: {fileID: 5075496043670442892}
   _table: {fileID: 2589579472645582328}
+  _isDestroy: 1
 --- !u!114 &571120209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4651,6 +4676,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1916306338}
+        m_TargetAssemblyTypeName: VideoPlayerTheory, Assembly-CSharp
+        m_MethodName: StartVideo
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9811,50 +9848,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239015775}
   m_CullTransparentMesh: 1
---- !u!1 &1262082572
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1262082574}
-  - component: {fileID: 1262082573}
-  m_Layer: 0
-  m_Name: TestsSec
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1262082573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262082572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 593400ec77754ca428fe1b3bafb7a2ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1262082574
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262082572}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7406015, y: 2.4186869, z: 37.705032}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1263279010
 GameObject:
   m_ObjectHideFlags: 0
@@ -11918,6 +11911,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1916306338}
+        m_TargetAssemblyTypeName: VideoPlayerTheory, Assembly-CSharp
+        m_MethodName: StartVideo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1607556057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12216,7 +12221,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 247589590}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999654
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12816,7 +12821,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000025952164}
+  m_AnchoredPosition: {x: 0, y: -0.000010130776}
   m_SizeDelta: {x: 0, y: 129.79}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1703965394
@@ -13859,10 +13864,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -13879,7 +13884,7 @@ Canvas:
   m_GameObject: {fileID: 1959095762}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -18471,7 +18476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1785721560259094037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20979,8 +20984,9 @@ GameObject:
   - component: {fileID: 4845175342333722135}
   - component: {fileID: 6586724407451352813}
   - component: {fileID: 6670496889426532285}
+  - component: {fileID: 6670496889426532286}
   m_Layer: 5
-  m_Name: Add_user
+  m_Name: AddTask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25668,6 +25674,7 @@ MonoBehaviour:
   _menu1: {fileID: 3214346484161848526}
   _menu2: {fileID: 5325065038282590882}
   _table: {fileID: 0}
+  _isDestroy: 0
 --- !u!222 &5678947225039496371
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26243,6 +26250,7 @@ MonoBehaviour:
   _menu1: {fileID: 3955083665486552767}
   _menu2: {fileID: 5325065038282590882}
   _table: {fileID: 0}
+  _isDestroy: 0
 --- !u!222 &6114159579297825443
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27279,17 +27287,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1776756330010596953}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 6670496889426532286}
+        m_TargetAssemblyTypeName: WindowRestart, Assembly-CSharp
+        m_MethodName: WinResatart
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1776756330010596953}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
+          m_StringArgument: Prefabs/PracWin
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 5075496043670442892}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -27303,6 +27311,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6670496889426532286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3007422034236713557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5e42e9a37d36245bf7e2efb9c0328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &6679727552777615369
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28092,6 +28112,7 @@ MonoBehaviour:
   _menu1: {fileID: 3214346484161848526}
   _menu2: {fileID: 8169550887431873524}
   _table: {fileID: 0}
+  _isDestroy: 0
 --- !u!1 &7105697842594019316
 GameObject:
   m_ObjectHideFlags: 0
@@ -28741,6 +28762,7 @@ MonoBehaviour:
   _menu1: {fileID: 5325065038282590882}
   _menu2: {fileID: 3955083665486552767}
   _table: {fileID: 0}
+  _isDestroy: 0
 --- !u!1 &7485428415983519227
 GameObject:
   m_ObjectHideFlags: 0
@@ -29169,6 +29191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6534219841403978697}
+  - component: {fileID: 7661438305481932515}
   m_Layer: 0
   m_Name: Right_side
   m_TagString: Untagged
@@ -29176,6 +29199,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7661438305481932515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7661438305481932514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca1de38311fde2429c58db9e1b87415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _theorySlider: {fileID: 2977540024212856867}
+  _pracSlider: {fileID: 374867716766040298}
 --- !u!1 &7680001052271719066
 GameObject:
   m_ObjectHideFlags: 0
@@ -29702,7 +29739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8184619308083720865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30719,6 +30756,7 @@ MonoBehaviour:
   _menu1: {fileID: 6535544978653146521}
   _menu2: {fileID: 3955083665486552767}
   _table: {fileID: 0}
+  _isDestroy: 0
 --- !u!224 &8635640049891805167
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30843,6 +30881,7 @@ MonoBehaviour:
   _menu1: {fileID: 3955083665486552767}
   _menu2: {fileID: 8169550887431873524}
   _table: {fileID: 0}
+  _isDestroy: 0
 --- !u!224 &8654824268897861696
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31230,6 +31269,7 @@ MonoBehaviour:
   _menu1: {fileID: 5075496043670442892}
   _menu2: {fileID: 8169550887431873524}
   _table: {fileID: 0}
+  _isDestroy: 0
 --- !u!224 &8868791077538839352
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31323,6 +31363,7 @@ MonoBehaviour:
   _menu1: {fileID: 1776756330010596953}
   _menu2: {fileID: 5075496043670442892}
   _table: {fileID: 2589579472645582328}
+  _isDestroy: 1
 --- !u!224 &8974051489377550280
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31824,6 +31865,7 @@ MonoBehaviour:
   _menu1: {fileID: 4815886847823714522}
   _menu2: {fileID: 8169550887431873524}
   _table: {fileID: 0}
+  _isDestroy: 0
 --- !u!222 &9200856790674911650
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31852,3 +31894,4 @@ MonoBehaviour:
   _menu1: {fileID: 4815886848272806126}
   _menu2: {fileID: 8169550887431873524}
   _table: {fileID: 0}
+  _isDestroy: 0
