@@ -1,4 +1,3 @@
-using System;
 using MySql.Data.MySqlClient;
 using UnityEngine;
 using System.Collections.Generic;
@@ -218,6 +217,54 @@ namespace DataBase
             catch
             {
                 Debug.Log("Ошибка get_amount_theory");
+            }
+
+            return null;
+        }
+
+        internal List<string> get_prac_task()
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                List<string> query = databaseQuery.ListQuery($"Call get_prac_name_task()");
+                return query;
+            }
+            catch
+            {
+                Debug.Log("Ошибка get_prac_task");
+            }
+
+            return null;
+        }
+
+        internal string get_prac_text_task(string nameTask)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                string query = databaseQuery.strQuery($"Call get_prac_text_task('{nameTask}')");
+                return query;
+            }
+            catch
+            {
+                Debug.Log("Ошибка get_prac_text_task");
+            }
+
+            return null;
+        }
+
+        internal string get_algoritm_prac(string nameTask)
+        {
+            try
+            {
+                DatabaseQuery databaseQuery = new DatabaseQuery();
+                string query = databaseQuery.strQuery($"Call get_algoritm_prac('{nameTask}')");
+                return query;
+            }
+            catch
+            {
+                Debug.Log("Ошибка get_prac_text_task");
             }
 
             return null;

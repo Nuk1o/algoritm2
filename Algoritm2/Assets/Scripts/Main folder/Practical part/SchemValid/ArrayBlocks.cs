@@ -100,26 +100,8 @@ public class ArrayBlocks : MonoBehaviour
             BDbase _bDbase = new BDbase();
             
             Debug.Log("Проверил работу");
-            //Изменить код!!!
-            // if (_safePlayerPrefs.HasBeenEdited("first","LoginUser"))
-            // {
-            //     string loginUser = PlayerPrefs.GetString("LoginUser");
-            //     int idTeach = Convert.ToInt32(_bDbase.get_id_teach(loginUser));
-            //     Debug.Log(algoritm);
-            //     using SHA256 hash = SHA256.Create();
-            //     string _hash = GetHash(hash, algoritm);
-            //     Debug.Log(_hash);
-            //     string logo = _txtLogo.text.Trim().ToLower();
-            //     string textTask = _txtTask.text.Trim().ToLower();
-            //     try
-            //     {
-            //         _bDbase.add_task_teacher(idTeach, logo, textTask, _hash);
-            //     }
-            //     catch
-            //     {
-            //         Debug.Log("Ошибка сверху");
-            //     }
-            // }
+            
+            //Получить результат задачи из бд и сравнить её с выполненым заданием студента
         }
     }
     private string GetHash(SHA256 hash, string input)
