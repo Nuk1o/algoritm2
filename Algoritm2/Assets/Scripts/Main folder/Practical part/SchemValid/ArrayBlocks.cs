@@ -100,10 +100,18 @@ public class ArrayBlocks : MonoBehaviour
             SafePlayerPrefs _safePlayerPrefs = new SafePlayerPrefs();            
             Debug.Log("Проверил работу");
             IQueryDatabase queryDatabase = new BDbase();
-            string algoritmPrac = queryDatabase.GetAlgoritmPrac(_tmpText1.text);
-            Debug.Log(algoritm);
-            Debug.Log(algoritmPrac);
-            //Получить результат задачи из бд и сравнить её с выполненым заданием студента
+            try
+            {
+                string algoritmPrac = queryDatabase.GetAlgoritmPrac(_txtLogo.text);
+                Debug.Log(algoritmPrac);
+            }
+            catch
+            {
+                Debug.Log("Ошибка алгоритма возможно пустой");
+            }
+            using SHA256 hash = SHA256.Create();
+            string _hash = GetHash(hash, algoritm);
+            Debug.Log(_hash);
         }
     }
     private string GetHash(SHA256 hash, string input)

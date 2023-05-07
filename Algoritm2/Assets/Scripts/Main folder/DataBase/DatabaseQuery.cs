@@ -64,7 +64,6 @@ public class DatabaseQuery : IDatabaseQuery
         mySqlConnection.Open();
         object objStr = cmd.ExecuteScalar();
         mySqlConnection.Close();
-        Debug.Log(objStr.ToString());
         return objStr.ToString();
     }
 }
