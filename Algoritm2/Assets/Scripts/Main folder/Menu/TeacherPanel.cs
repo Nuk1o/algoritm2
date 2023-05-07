@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using core;
 using Unity.Mathematics;
 
 public class TeacherPanel : MonoBehaviour
@@ -12,13 +11,13 @@ public class TeacherPanel : MonoBehaviour
 
     private void Start()
     {
-        core.Core _core = new Core();
-        
+        IQueryDatabase queryDatabase = new BDbase();
+
         List<string> _name_task_bd = new List<string>();
         List<string> _text_task_bd = new List<string>();
-
-        _name_task_bd = _core.name_task_panel_teach();
-        _text_task_bd = _core.text_task_panel_teach();
+        
+        _name_task_bd = queryDatabase.NameTask();
+        _text_task_bd = queryDatabase.TextTask();
 
         Debug.Log(_name_task_bd[0]);
         Debug.Log(_text_task_bd[0]);

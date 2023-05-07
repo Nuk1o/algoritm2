@@ -7,7 +7,6 @@ public class TaskMenuiCreate : MonoBehaviour
     [SerializeField] private GameObject _taskMenu;
     [SerializeField] private TMP_InputField _tmpInputField;
     [SerializeField] private Button _btn_cancle, _btn_ok;
-    
 
     private void Start()
     {

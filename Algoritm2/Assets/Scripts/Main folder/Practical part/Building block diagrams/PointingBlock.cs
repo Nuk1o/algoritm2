@@ -1,10 +1,8 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-
 public class PointingBlock :MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     private GameObject[] dots = new GameObject [4];
-
     private void Awake()
     {
         for (int i = 0; i < 4; i++)

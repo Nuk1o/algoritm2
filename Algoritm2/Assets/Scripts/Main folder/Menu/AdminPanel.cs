@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using core;
 using Unity.Mathematics;
 
 public class AdminPanel : MonoBehaviour
@@ -12,16 +11,14 @@ public class AdminPanel : MonoBehaviour
 
     private void Start()
     {
-        core.Core _core = new Core();
-        
+        IQueryDatabase queryDatabase = new BDbase();
         List<string> _login_users_bd = new List<string>();
         List<string> _role_users_bd = new List<string>();
-        
-        _login_users_bd = _core.users_admin_panel_login();
-        _role_users_bd = _core.users_admin_panel_role();
 
-        int _count_R = _login_users_bd.Count;
-        
+        _login_users_bd = queryDatabase.UsersLogin();
+        _role_users_bd = queryDatabase.UsersRole();
+
+        int _count_R = _login_users_bd.Count;        
         
         while (_count_R != 0)
         {

@@ -3,7 +3,6 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-
 public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDropHandler
 {
     [SerializeField] private GameObject _parent;

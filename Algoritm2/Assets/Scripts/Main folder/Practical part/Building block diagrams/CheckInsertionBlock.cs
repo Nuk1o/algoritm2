@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class CheckInsertionBlock : MonoBehaviour
 {
     private const float _offsetHeightUp = 4; 
@@ -10,7 +9,6 @@ public class CheckInsertionBlock : MonoBehaviour
     {
         CheckBlock();
     }
-
     private void CheckBlock()
     {
         if (gameObject.transform.position.y > _offsetHeightUp||gameObject.transform.position.y < _offsetHeightDown||

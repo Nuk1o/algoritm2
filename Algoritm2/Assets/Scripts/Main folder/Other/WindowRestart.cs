@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class WindowRestart : MonoBehaviour
 {
     public void WinResatart(GameObject _newWin)

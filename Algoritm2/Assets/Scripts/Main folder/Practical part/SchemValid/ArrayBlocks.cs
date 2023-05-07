@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
-using DataBase;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,6 +15,8 @@ public class ArrayBlocks : MonoBehaviour
     public List<BlocksListClass> _listBlocks = new List<BlocksListClass>();
     private List<string> _saveList = new List<string>();
     private bool _isSave = false;
+    private TMP_Text _tmpText1;
+    private TMP_Text _tmpText2;
     private void Update()
     {
         if (_isStudent)
@@ -35,8 +36,8 @@ public class ArrayBlocks : MonoBehaviour
             _isSave = true;
             foreach (var VARIABLE in _listBlocks)
             {
-                TMP_Text _tmpText1 = VARIABLE.block1.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
-                TMP_Text _tmpText2 = VARIABLE.block2.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
+                _tmpText1 = VARIABLE.block1.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
+                _tmpText2 = VARIABLE.block2.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
                 Debug.Log($"Алгоритм: {_tmpText1.text}");
                 Debug.Log($"Алгоритм: {_tmpText2.text}");
                 _saveList.Add(_tmpText1.text.ToLower().Trim());
@@ -51,11 +52,11 @@ public class ArrayBlocks : MonoBehaviour
             Debug.Log(_txtLogo.text);
             Debug.Log(_txtTask.text);
             SafePlayerPrefs _safePlayerPrefs = new SafePlayerPrefs();
-            BDbase _bDbase = new BDbase();
+            IQueryDatabase queryDatabase = new BDbase();
             if (_safePlayerPrefs.HasBeenEdited("first","LoginUser"))
             {
                 string loginUser = PlayerPrefs.GetString("LoginUser");
-                int idTeach = Convert.ToInt32(_bDbase.get_id_teach(loginUser));
+                int idTeach = Convert.ToInt32(queryDatabase.GetIdTeach(loginUser));                
                 Debug.Log(algoritm);
                 using SHA256 hash = SHA256.Create();
                 string _hash = GetHash(hash, algoritm);
@@ -64,7 +65,7 @@ public class ArrayBlocks : MonoBehaviour
                 string textTask = _txtTask.text.Trim().ToLower();
                 try
                 {
-                    _bDbase.add_task_teacher(idTeach, logo, textTask, _hash);
+                    queryDatabase.AddTaskTeacher(idTeach, logo, textTask, _hash);
                 }
                 catch
                 {
@@ -78,11 +79,11 @@ public class ArrayBlocks : MonoBehaviour
     {
         if (!_isSave)
         {
-            _isSave = true;
+            _isSave = true;            
             foreach (var VARIABLE in _listBlocks)
             {
-                TMP_Text _tmpText1 = VARIABLE.block1.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
-                TMP_Text _tmpText2 = VARIABLE.block2.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
+                _tmpText1 = VARIABLE.block1.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
+                _tmpText2 = VARIABLE.block2.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
                 Debug.Log($"Алгоритм: {_tmpText1.text}");
                 Debug.Log($"Алгоритм: {_tmpText2.text}");
                 _saveList.Add(_tmpText1.text.ToLower().Trim());
@@ -96,11 +97,12 @@ public class ArrayBlocks : MonoBehaviour
             }
             Debug.Log(_txtLogo.text);
             Debug.Log(_txtTask.text);
-            SafePlayerPrefs _safePlayerPrefs = new SafePlayerPrefs();
-            BDbase _bDbase = new BDbase();
-            
+            SafePlayerPrefs _safePlayerPrefs = new SafePlayerPrefs();            
             Debug.Log("Проверил работу");
-            
+            IQueryDatabase queryDatabase = new BDbase();
+            string algoritmPrac = queryDatabase.GetAlgoritmPrac(_tmpText1.text);
+            Debug.Log(algoritm);
+            Debug.Log(algoritmPrac);
             //Получить результат задачи из бд и сравнить её с выполненым заданием студента
         }
     }

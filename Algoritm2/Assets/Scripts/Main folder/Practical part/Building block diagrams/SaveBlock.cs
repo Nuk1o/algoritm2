@@ -7,7 +7,6 @@ public class SaveBlock : MonoBehaviour
     [SerializeField] private ArrayBlocks _arrayBlocks;
     public List<GameObject> ListGOParent = new List<GameObject>();
     public List<GameObject> ListGO = new List<GameObject>();
-
     public void LineCreate(GameObject _gameObject)
     {
         try

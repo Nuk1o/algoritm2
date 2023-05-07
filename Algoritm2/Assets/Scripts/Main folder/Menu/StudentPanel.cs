@@ -1,5 +1,4 @@
 using System;
-using DataBase;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,12 +6,12 @@ public class StudentPanel : MonoBehaviour
 {
     [SerializeField] private Slider _theorySlider;
     [SerializeField] private Slider _pracSlider;
-    private BDbase _bDbase;
+    private IQueryDatabase queryDatabase;
     private void Start()
     {
-        _bDbase = new BDbase();
         _theorySlider.maxValue = 5;
         _pracSlider.maxValue = 5;
+        queryDatabase = new BDbase();
     }
 
     private void FixedUpdate()
@@ -21,10 +20,10 @@ public class StudentPanel : MonoBehaviour
         if (_safePlayerPrefs.HasBeenEdited("first","LoginUser"))
         {
             string loginUser = PlayerPrefs.GetString("LoginUser");
-            int idUser = Convert.ToInt32(_bDbase.get_id_user(loginUser));
+            int idUser = Convert.ToInt32(queryDatabase.GetIdUser(loginUser));
             try
             {
-                int amout = Convert.ToInt32(_bDbase.get_amount_theory(idUser));
+                int amout = Convert.ToInt32(queryDatabase.GetAmountTheory(idUser));
                 _theorySlider.value = amout;
             }
             catch
