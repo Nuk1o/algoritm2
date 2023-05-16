@@ -7448,7 +7448,7 @@ MonoBehaviour:
   _btn_cancle: {fileID: 4073624354110316270}
   _btn_ok: {fileID: 3823484417771697951}
   _menu1: {fileID: 1401711939}
-  _menu2: {fileID: 3955083665486552767}
+  _menu2: {fileID: 6535544978653146521}
   _table: {fileID: 629664888}
   _isDestroy: 1
 --- !u!114 &588509875
@@ -16206,6 +16206,7 @@ MonoBehaviour:
   _txtLogo: {fileID: 300673824}
   _txtTask: {fileID: 1258456778}
   _isStudent: 1
+  _txtResult: {fileID: 1345425880399918262}
 --- !u!4 &1401711942
 Transform:
   m_ObjectHideFlags: 0
@@ -24520,7 +24521,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_TargetDisplay: 0
 --- !u!222 &810447071102499360
 CanvasRenderer:
@@ -26156,6 +26157,7 @@ MonoBehaviour:
   _txtLogo: {fileID: 1317808798}
   _txtTask: {fileID: 554362206}
   _isStudent: 0
+  _txtResult: {fileID: 0}
 --- !u!114 &1785721560259094037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32253,7 +32255,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!114 &5081039663000695490
 MonoBehaviour:

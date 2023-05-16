@@ -12,6 +12,7 @@ public class ArrayBlocks : MonoBehaviour
     [SerializeField] private TMP_Text _txtLogo;
     [SerializeField] private TMP_Text _txtTask;
     [SerializeField] private bool _isStudent;
+    [SerializeField] private TMP_Text _txtResult;
     public List<BlocksListClass> _listBlocks = new List<BlocksListClass>();
     private List<string> _saveList = new List<string>();
     private bool _isSave = false;
@@ -100,18 +101,32 @@ public class ArrayBlocks : MonoBehaviour
             SafePlayerPrefs _safePlayerPrefs = new SafePlayerPrefs();            
             Debug.Log("Проверил работу");
             IQueryDatabase queryDatabase = new BDbase();
+            using SHA256 hash = SHA256.Create();
+            string _hash = GetHash(hash, algoritm);
+            Debug.Log(_hash);
             try
             {
                 string algoritmPrac = queryDatabase.GetAlgoritmPrac(_txtLogo.text);
                 Debug.Log(algoritmPrac);
+                if (_txtResult != null)
+                {
+                    if (_hash == algoritmPrac)
+                    {
+                        _txtResult.text = "Верно";
+                        _txtResult.color = Color.green;
+                    }
+                    else
+                    {
+                        _txtResult.text = "Неверно";
+                        _txtResult.color = Color.red;
+                    }
+                }
             }
             catch
             {
                 Debug.Log("Ошибка алгоритма возможно пустой");
             }
-            using SHA256 hash = SHA256.Create();
-            string _hash = GetHash(hash, algoritm);
-            Debug.Log(_hash);
+            
         }
     }
     private string GetHash(SHA256 hash, string input)
