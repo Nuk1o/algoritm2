@@ -6,7 +6,7 @@ public class LoadPracTask : MonoBehaviour
 {
     [SerializeField] TMP_Text _logo;
     [SerializeField] TMP_Text _text;
-    public void LoadTask()//Ќужно сделать случайный вывод задачи
+    public void LoadTask()
     {
         IQueryDatabase queryDatabase = new BDbase();
         List<string> _listTasks= queryDatabase.GetPracTask();

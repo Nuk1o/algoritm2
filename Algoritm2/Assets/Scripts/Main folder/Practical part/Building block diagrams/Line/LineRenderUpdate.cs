@@ -67,7 +67,6 @@ public class LineRenderUpdate : MonoBehaviour
                                 _pos3 = new Vector3(_posArrow2.x, (_posArrow1.y + _posArrow2.y)/2,1);
                             }
                         }
-
                         _pos4 = new Vector3(_posArrow2.x,_posArrow2.y,1);
                         _line.SetPosition(0,_pos1);
                         _line.SetPosition(1,_pos2);
@@ -81,7 +80,6 @@ public class LineRenderUpdate : MonoBehaviour
                 _line.SetPosition(0,Vector3.zero);
                 _line.SetPosition(1,Vector3.zero);
             }
-            
         }
     }
 }

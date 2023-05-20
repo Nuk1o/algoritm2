@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -26,9 +27,10 @@ public class BDbase : IQueryDatabase
             object queryBD = databaseQuery.QueryBD($"add_task_teacher('{idTeach}','{nameTask}','{textTask}','{algoritmTask}')");
             Debug.Log(queryBD);
         }
-        catch
+        catch (Exception e)
         {
-            Debug.Log("Ошибка add_task_teacher");
+            Console.WriteLine(e);
+            throw;
         }
         return null;
     }

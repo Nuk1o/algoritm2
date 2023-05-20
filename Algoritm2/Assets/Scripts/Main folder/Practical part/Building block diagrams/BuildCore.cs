@@ -61,6 +61,7 @@ public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDrop
         }
         _spawnBlock = true;
         gameObject.AddComponent<CheckInsertionBlock>();
+        gameObject.transform.position = new Vector3(0,gameObject.transform.position.y,1);
     }
 }
 
