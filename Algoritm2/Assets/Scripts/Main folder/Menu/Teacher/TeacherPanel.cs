@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -9,7 +11,12 @@ public class TeacherPanel : MonoBehaviour
     [SerializeField] private GameObject _parent;
     private Component[] tmp_texts;
 
-    private void Start()
+    private void OnEnable()
+    {
+        StartCoroutine(UpdateTableTask());
+    }
+
+    private void SelectTasks()
     {
         IQueryDatabase queryDatabase = new BDbase();
 
@@ -35,6 +42,23 @@ public class TeacherPanel : MonoBehaviour
             TMP_Text _text = _go2.GetComponent<TMP_Text>();
             _name.text = _name_task_bd[_count_R];
             _text.text = _text_task_bd[_count_R];
+        }
+    }
+
+    IEnumerator UpdateTableTask()
+    {
+        while (true)
+        {
+            if (_parent.transform.childCount>1)
+            {
+                for (int j = 1; j < _parent.transform.childCount; j++)
+                {
+                    Debug.Log(_parent.transform.GetChild(j));
+                    Destroy(_parent.transform.GetChild(j).gameObject);
+                }
+            }
+            SelectTasks();
+            yield return new WaitForSeconds(2);
         }
     }
 }

@@ -19,4 +19,10 @@ interface IQueryDatabase
     public List<string> GetPracTask();
     public string GetPracTextTask(string nameTask);
     public string GetAlgoritmPrac(string nameTask);
+
+    public List<string> GetNameTextTeacher(int idTeacher);
+
+    public string GetIdTeacher(int idUser);
+
+    public string DeleteTask(string nameTask);
 }

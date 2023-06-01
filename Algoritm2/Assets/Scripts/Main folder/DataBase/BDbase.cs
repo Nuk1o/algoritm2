@@ -96,6 +96,52 @@ public class BDbase : IQueryDatabase
         return null;
     }
 
+    public List<string> GetNameTextTeacher(int idTeacher)
+    {
+        try
+        {
+            IDatabaseQuery databaseQuery = new DatabaseQuery();
+            List<string> query = databaseQuery.ListQuery($"Call get_name_text_teachers({idTeacher})");
+            return query;
+        }
+        catch
+        {
+            Debug.Log("Ошибка get_name_text_teachers");
+        }
+
+        return null;
+    }
+
+    public string GetIdTeacher(int idUser)
+    {
+        try
+        {
+            IDatabaseQuery databaseQuery = new DatabaseQuery();
+            string query = databaseQuery.StrQuery($"Call get_id_teacher('{idUser}')");
+            return query;
+        }
+        catch
+        {
+            Debug.Log("Ошибка get_id_teacher");
+        }
+        return null;
+    }
+
+    public string DeleteTask(string nameTask)
+    {
+        try
+        {
+            IDatabaseQuery databaseQuery = new DatabaseQuery();
+            object queryBD = databaseQuery.QueryBD($"delete_task_name('{nameTask}')");
+            Debug.Log(queryBD);
+        }
+        catch
+        {
+            Debug.Log("Ошибка delete_task_name");
+        }
+        return null;
+    }
+
     public string GetAmountTaskTeacher(string login)
     {
         try

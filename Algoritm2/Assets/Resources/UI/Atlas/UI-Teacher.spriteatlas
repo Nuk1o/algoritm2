@@ -41,6 +41,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 40eeeea016b5eb84f805e0463e3b33be, type: 3}
   - {fileID: 21300000, guid: f5094dc1322598e4c94c030f41aa785c, type: 3}
   - {fileID: 21300000, guid: 239a9f54182344d4c965c0e4671e8070, type: 3}
+  - {fileID: 21300000, guid: b5c479d5c36eef74b9b03128b96b6155, type: 3}
   - {fileID: 21300000, guid: fab4ed5bd7cbde14c886d6d13bf6bc2e, type: 3}
   - {fileID: 21300000, guid: 65d8f3bcc61dcd145a0c92fecc17c625, type: 3}
   - {fileID: 21300000, guid: 40a5e8cc696965443b026f3709317f7e, type: 3}
@@ -48,6 +49,7 @@ SpriteAtlas:
   - Table-2
   - "\u0412\u044B\u0445\u043E\u0434"
   - "\u041B\u043E\u0433\u043E\u0442\u0438\u043F"
+  - trash3-fill
   - Table-1
   - Table
   - "\u041C\u0435\u043D\u044E"
