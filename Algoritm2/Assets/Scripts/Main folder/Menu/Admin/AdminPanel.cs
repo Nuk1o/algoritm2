@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -9,7 +11,12 @@ public class AdminPanel : MonoBehaviour
     [SerializeField] private GameObject _parent;
     private Component[] tmp_texts;
 
-    private void Start()
+    private void OnEnable()
+    {
+        StartCoroutine(UpdateTable());
+    }
+
+    private void SelectUsers()
     {
         IQueryDatabase queryDatabase = new BDbase();
         List<string> _login_users_bd = new List<string>();
@@ -32,6 +39,23 @@ public class AdminPanel : MonoBehaviour
             _login.text = _login_users_bd[_count_R];
             _role.text = _role_users_bd[_count_R];
         }
-        DestroyImmediate(_row);
+        //DestroyImmediate(_row);
+    }
+
+    IEnumerator UpdateTable()
+    {
+        while (true)
+        {
+            if (_parent.transform.childCount>1)
+            {
+                for (int j = 1; j < _parent.transform.childCount; j++)
+                {
+                    Debug.Log(_parent.transform.GetChild(j));
+                    Destroy(_parent.transform.GetChild(j).gameObject);
+                }
+            }
+            SelectUsers();
+            yield return new WaitForSeconds(2);
+        }
     }
 }
