@@ -56,16 +56,18 @@ public class LineRenderUpdate : MonoBehaviour
                 
                         if (_blockOffsetNew == 0)
                         {
-                            if (_arrow1GO.name == "right"||_arrow1GO.name=="left"&&_arrow2GO.name=="right"||_arrow2GO.name=="left")
-                            {
-                                _pos2 = new Vector3((_posArrow1.x+_posArrow2.x)/2, _posArrow1.y,1);
-                                _pos3 = new Vector3((_posArrow1.x+_posArrow2.x)/2 , _posArrow2.y,1);                        
-                            }
-                            else
-                            {
-                                _pos2 = new Vector3(_posArrow1.x, (_posArrow1.y + _posArrow2.y)/2,1);
-                                _pos3 = new Vector3(_posArrow2.x, (_posArrow1.y + _posArrow2.y)/2,1);
-                            }
+                            // if (_arrow1GO.name == "right"||_arrow1GO.name=="left"&&_arrow2GO.name=="right"||_arrow2GO.name=="left")
+                            // {
+                            //     _pos2 = new Vector3((_posArrow1.x+_posArrow2.x)/2, _posArrow1.y,1);
+                            //     _pos3 = new Vector3((_posArrow1.x+_posArrow2.x)/2 , _posArrow2.y,1);                        
+                            // }
+                            // else
+                            // {
+                            //     _pos2 = new Vector3(_posArrow1.x, (_posArrow1.y + _posArrow2.y)/2,1);
+                            //     _pos3 = new Vector3(_posArrow2.x, (_posArrow1.y + _posArrow2.y)/2,1);
+                            // }
+                            _pos2 = new Vector3(_posArrow1.x, _posArrow2.y,1);
+                            _pos3 = new Vector3(_posArrow1.x, _posArrow2.y,1);
                         }
                         _pos4 = new Vector3(_posArrow2.x,_posArrow2.y,1);
                         _line.SetPosition(0,_pos1);

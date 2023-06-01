@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
@@ -32,8 +33,9 @@ public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDrop
             InputTextBlock inputTextBlock = new InputTextBlock(_inputField);
             inputTextBlock.SaveInputText(eneterTextBlock);
         }
-        if (eventData.button == PointerEventData.InputButton.Right)
+        if (eventData.button == PointerEventData.InputButton.Right&&_spawnBlock)
         {
+            //Del block
             try
             {
                 _saveBlock.RemoveGO(gameObject);
@@ -41,7 +43,7 @@ public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDrop
             }
             catch
             {
-                Debug.Log("Error");
+                Destroy(gameObject);
             }
         }
     }
@@ -61,7 +63,6 @@ public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDrop
         }
         _spawnBlock = true;
         gameObject.AddComponent<CheckInsertionBlock>();
-        gameObject.transform.position = new Vector3(0,gameObject.transform.position.y,1);
     }
 }
 
