@@ -9,6 +9,7 @@ public class Auth : MonoBehaviour
     [SerializeField] private GameObject _ui_admin;
     [SerializeField] private GameObject _ui_teacher;
     [SerializeField] private GameObject _ui_student;
+    [SerializeField] private GameObject _wrongPass;
     [Space]
     [SerializeField] private TMP_InputField _login;
     [SerializeField] private TMP_InputField _password;
@@ -30,6 +31,10 @@ public class Auth : MonoBehaviour
        //Debug.Log("Пароль при входе: "+pass_s);
         string role = queryDatabase.EnterApp(login_s,pass_s);
         //Debug.Log($"Роль в авторизации {role}");
+        if (role == null)
+        {
+            _wrongPass.SetActive(true);
+        }
         switch (role)
         {
             case "admin":
