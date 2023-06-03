@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +17,12 @@ public class StudentPanel : MonoBehaviour
         _safePlayerPrefs = new SafePlayerPrefs();
     }
 
-    private void FixedUpdate()
+    private void OnEnable()
+    {
+        StartCoroutine(UpdateTable());
+    }
+
+    private void SelectData()
     {
         try
         {
@@ -38,6 +44,15 @@ public class StudentPanel : MonoBehaviour
         catch
         {
             Debug.Log("StudentPanel error");
+        }
+    }
+
+    IEnumerator UpdateTable()
+    {
+        while (true)
+        {
+            SelectData();
+            yield return new WaitForSeconds(5);
         }
     }
 }
