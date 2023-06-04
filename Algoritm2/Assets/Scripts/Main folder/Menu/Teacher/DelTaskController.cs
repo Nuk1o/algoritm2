@@ -9,6 +9,7 @@ public class DelTaskController : MonoBehaviour
 {
     [SerializeField] private TMP_Dropdown _delDropdown;
     [SerializeField] private Button _buttonDel;
+    [SerializeField] private GameObject _infoMenu;
     [Header("QuestMenu")]
     [SerializeField] private GameObject _questMenu;
     [SerializeField] private TMP_Text _textQuest;
@@ -45,7 +46,11 @@ public class DelTaskController : MonoBehaviour
         int val = _delDropdown.value;
         string name_task = _delDropdown.options[val].text;
         Debug.Log(name_task);
-        queryDatabase.DeleteTask(name_task);
+        var _query = queryDatabase.DeleteTask(name_task);
+        if (_query == null)
+        {
+            _infoMenu.SetActive(true);
+        }
     }
 
     private void SelectTasks()

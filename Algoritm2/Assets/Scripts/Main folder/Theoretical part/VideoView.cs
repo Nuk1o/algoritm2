@@ -24,12 +24,12 @@ public class VideoView : MonoBehaviour
                 try
                 {
                     int amout = Convert.ToInt32(queryDatabase.GetAmountTheory(idUser));
-                    queryDatabase.StudentAddAmountTask(idUser, amout + 1);
+                    queryDatabase.StudentAddAmountTheory(idUser, amout + 1);
                 }
                 catch
                 {
                     Debug.Log("Ошибка сверху");
-                    queryDatabase.StudentAddAmountTask(idUser, 1);
+                    queryDatabase.StudentAddAmountTheory(idUser, 1);
                 }
             }
         }

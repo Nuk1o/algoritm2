@@ -142,21 +142,6 @@ public class BDbase : IQueryDatabase
         return null;
     }
 
-    public string GetAmountTaskTeacher(string login)
-    {
-        try
-        {
-            IDatabaseQuery databaseQuery = new DatabaseQuery();
-            string query = databaseQuery.StrQuery($"Call get_amount_task_teacher('{login}')");
-            return query;
-        }
-        catch
-        {
-            Debug.Log("Ошибка get_amount_task_teacher");
-        }
-        return null;
-    }
-
     public string GetAmountTheory(int idUser)
     {
         try
@@ -251,12 +236,12 @@ public class BDbase : IQueryDatabase
         return null;
     }
 
-    public string StudentAddAmountTask(int idUser, int amout)
+    public string StudentAddAmountTheory(int idUser, int amout)
     {
         try
         {
             IDatabaseQuery databaseQuery = new DatabaseQuery();
-            object queryBD = databaseQuery.QueryBD($"add_amount_task_student('{idUser}','{amout}')");
+            object queryBD = databaseQuery.QueryBD($"add_amount_theory_student('{idUser}','{amout}')");
             Debug.Log(queryBD);
         }
         catch
@@ -265,23 +250,7 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
-    public List<string> TextTask()
-    {
-        try
-        {
-            List<string> _list = new List<string>();
-            IDatabaseQuery databaseQuery = new DatabaseQuery();
-            _list = databaseQuery.ListQuery("select text_task from select_name_task_text_task_from_task");
-            return _list;
-        }
-        catch
-        {
-            Debug.Log("Ошибка text task, base");
-        }
-        return null;
-    }
-
+    
     public List<string> UsersLogin()
     {
         try

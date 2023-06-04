@@ -64,6 +64,8 @@ public class ArrayBlocks : MonoBehaviour
                 Debug.Log(_hash);
                 string logo = _txtLogo.text.Trim().ToLower();
                 string textTask = _txtTask.text.Trim().ToLower();
+                logo = logo.Replace(" ", "_");
+                textTask = textTask.Replace(" ", "_");
                 try
                 {
                     queryDatabase.AddTaskTeacher(idTeach, logo, textTask, _hash);

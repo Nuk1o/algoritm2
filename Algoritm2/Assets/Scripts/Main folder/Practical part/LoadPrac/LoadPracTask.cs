@@ -14,6 +14,8 @@ public class LoadPracTask : MonoBehaviour
         int rnd = Random.Range(0, _count);
         string _nameTask = _listTasks[rnd];
         string _textTask = queryDatabase.GetPracTextTask(_nameTask);
+        _nameTask = _nameTask.Replace("_", " ");
+        _textTask = _textTask.Replace("_", " ");
         _logo.text = _nameTask;
         _text.text = _textTask;
     }

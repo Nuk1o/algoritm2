@@ -21,14 +21,7 @@ public class TeacherPanel : MonoBehaviour
         IQueryDatabase queryDatabase = new BDbase();
 
         List<string> _name_task_bd = new List<string>();
-        List<string> _text_task_bd = new List<string>();
-        
         _name_task_bd = queryDatabase.NameTask();
-        _text_task_bd = queryDatabase.TextTask();
-
-        Debug.Log(_name_task_bd[0]);
-        Debug.Log(_text_task_bd[0]);
-        
         int _count_R = _name_task_bd.Count;
 
         while (_count_R != 0)
@@ -41,7 +34,8 @@ public class TeacherPanel : MonoBehaviour
             TMP_Text _name = _go1.GetComponent<TMP_Text>();
             TMP_Text _text = _go2.GetComponent<TMP_Text>();
             _name.text = _name_task_bd[_count_R];
-            _text.text = _text_task_bd[_count_R];
+            _text.text = queryDatabase.GetPracTextTask(_name_task_bd[_count_R]);
+            
         }
     }
 
