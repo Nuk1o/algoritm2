@@ -131,7 +131,7 @@ public class SaveBlock : MonoBehaviour
                 _line.SetPosition(2,_pos3);
                 _line.SetPosition(3,_pos4);
                 
-                _lineRenderUpdate.LineRenderUpdate1(_arrow1,_arrow2,4, _blockOffset);
+                _lineRenderUpdate.LineRenderUpdate1(_arrow1,_arrow2, _blockOffset);
                 break;
             default:
                 Debug.Log("LineCreate Error");
