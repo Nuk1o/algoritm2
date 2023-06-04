@@ -52,7 +52,7 @@ public class TeacherPanel : MonoBehaviour
                 }
             }
             SelectTasks();
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(3);
         }
     }
 }

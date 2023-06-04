@@ -108,7 +108,9 @@ public class ArrayBlocks : MonoBehaviour
             Debug.Log(_hash);
             try
             {
-                string algoritmPrac = queryDatabase.GetAlgoritmPrac(_txtLogo.text);
+                string logoText = _txtLogo.text;
+                logoText = logoText.Replace(" ", "_");
+                string algoritmPrac = queryDatabase.GetAlgoritmPrac(logoText);
                 Debug.Log(algoritmPrac);
                 if (_txtResult != null)
                 {
@@ -116,6 +118,14 @@ public class ArrayBlocks : MonoBehaviour
                     {
                         _txtResult.text = "Верно";
                         _txtResult.color = Color.green;
+                        if (_safePlayerPrefs.HasBeenEdited("first", "LoginUser"))
+                        {
+                            string loginUser = PlayerPrefs.GetString("LoginUser");
+                            int idUser = Convert.ToInt32(queryDatabase.GetIdUser(loginUser));
+                            int amount = Convert.ToInt32(queryDatabase.GetAmountTask(idUser));
+                            queryDatabase.StudentAddAmountTask(idUser, amount + 1);
+                        }
+                        
                     }
                     else
                     {

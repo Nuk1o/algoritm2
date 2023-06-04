@@ -55,7 +55,7 @@ public class AdminPanel : MonoBehaviour
                 }
             }
             SelectUsers();
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(5);
         }
     }
 }

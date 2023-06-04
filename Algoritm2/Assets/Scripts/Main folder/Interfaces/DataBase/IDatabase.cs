@@ -8,12 +8,14 @@ interface IQueryDatabase
     public List<string> UsersRole();
     public List<string> NameTask();
     public string StudentAddAmountTheory(int idUser, int amout);
+    public string StudentAddAmountTask(int idUser, int amout);
     public string AddTaskTeacher(int idTeach, string nameTask, string textTask, string algoritmTask);
     public string AddTeacher(int idUser, string login);
     public string AddStudent(int idUser);
     public string GetIdUser(string login);
     public string GetIdTeach(string login);
     public string GetAmountTheory(int idUser);
+    public string GetAmountTask(int idUser);
     public List<string> GetPracTask();
     public string GetPracTextTask(string nameTask);
     public string GetAlgoritmPrac(string nameTask);

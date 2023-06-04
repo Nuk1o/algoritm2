@@ -32,8 +32,11 @@ public class StudentPanel : MonoBehaviour
                 int idUser = Convert.ToInt32(queryDatabase.GetIdUser(loginUser));
                 try
                 {
-                    int amout = Convert.ToInt32(queryDatabase.GetAmountTheory(idUser));
-                    _theorySlider.value = amout;
+                    int amoutTheory = Convert.ToInt32(queryDatabase.GetAmountTheory(idUser));
+                    _theorySlider.value = amoutTheory;
+                    
+                    int amoutTask = Convert.ToInt32(queryDatabase.GetAmountTask(idUser));
+                    _pracSlider.value = amoutTask;
                 }
                 catch
                 {

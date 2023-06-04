@@ -19,6 +19,21 @@ public class BDbase : IQueryDatabase
         return null;
     }
 
+    public string StudentAddAmountTask(int idUser, int amout)
+    {
+        try
+        {
+            IDatabaseQuery databaseQuery = new DatabaseQuery();
+            object queryBD = databaseQuery.QueryBD($"add_amount_task_student('{idUser}','{amout}')");
+            Debug.Log(queryBD);
+        }
+        catch
+        {
+            Debug.Log("Ошибка add_amount_task_student");
+        }
+        return null;
+    }
+
     public string AddTaskTeacher(int idTeach, string nameTask, string textTask, string algoritmTask)
     {
         try
@@ -154,7 +169,21 @@ public class BDbase : IQueryDatabase
         {
             Debug.Log("Ошибка get_amount_theory");
         }
+        return null;
+    }
 
+    public string GetAmountTask(int idUser)
+    {
+        try
+        {
+            IDatabaseQuery databaseQuery = new DatabaseQuery();
+            string query = databaseQuery.StrQuery($"Call get_amount_task('{idUser}')");
+            return query;
+        }
+        catch
+        {
+            Debug.Log("Ошибка get_amount_task");
+        }
         return null;
     }
 
@@ -246,7 +275,7 @@ public class BDbase : IQueryDatabase
         }
         catch
         {
-            Debug.Log("Ошибка student_add_amount_task");
+            Debug.Log("Ошибка add_amount_theory_student");
         }
         return null;
     }
