@@ -9,6 +9,7 @@ public class SaveBlock : MonoBehaviour
     [SerializeField] private EdgeCollider2D _edgeCollider2D;
     public List<GameObject> ListGOParent = new List<GameObject>();
     public List<GameObject> ListGO = new List<GameObject>();
+    private int idCollider = 0;
     public void LineCreate(GameObject _gameObject)
     {
         try
@@ -41,7 +42,6 @@ public class SaveBlock : MonoBehaviour
         {
             LineRenderer _line1 = _line.GetComponent<LineRenderer>();
             LineRenderUpdate _lineRenderUpdate = _line.AddComponent<LineRenderUpdate>();
-            //_lineRenderUpdate.LineRenderUpdate1(_arrow1,_arrow2);
             _line1.startWidth = 0.05f;
             _line1.endWidth = 0.05f;
             
@@ -72,7 +72,6 @@ public class SaveBlock : MonoBehaviour
             Debug.Log(_blocksList.block1);
             Debug.Log(_blocksList.block2);
             _arrayBlocks._listBlocks.Add(_blocksList);
-            //_arrayBlocks._listBlocks.Add(_blocksList);
 
         }
         catch (Exception e)
@@ -133,6 +132,13 @@ public class SaveBlock : MonoBehaviour
                 _line.SetPosition(3,_pos4);
 
                 EdgeCollider2D _newEdgeCollider2D = Instantiate(_edgeCollider2D, Vector3.zero,quaternion.identity);
+                idCollider++;
+                _newEdgeCollider2D.gameObject.name = $"EdgeCollider {idCollider}";
+                if (gameObject.TryGetComponent(out iColliderStorage _colliderStorage))
+                {
+                    _colliderStorage.AddCollider(_newEdgeCollider2D);
+                }
+                
                 _lineRenderUpdate.LineRenderUpdate1(_arrow1,_arrow2, _blockOffset,_newEdgeCollider2D);
                 break;
             default:

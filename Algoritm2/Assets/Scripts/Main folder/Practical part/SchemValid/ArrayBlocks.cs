@@ -75,6 +75,10 @@ public class ArrayBlocks : MonoBehaviour
                     Debug.Log("Ошибка сверху");
                 }
             }
+            if (gameObject.TryGetComponent(out iColliderStorage _colliderStorage))
+            {
+                _colliderStorage.DelAllCollider();
+            }
         }
     }
 
@@ -136,6 +140,10 @@ public class ArrayBlocks : MonoBehaviour
             catch
             {
                 Debug.Log("Ошибка алгоритма возможно пустой");
+            }
+            if (gameObject.TryGetComponent(out iColliderStorage _colliderStorage))
+            {
+                _colliderStorage.DelAllCollider();
             }
             
         }

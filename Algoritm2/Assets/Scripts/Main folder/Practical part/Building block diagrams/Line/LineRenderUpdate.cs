@@ -131,9 +131,12 @@ public class LineRenderUpdate : MonoBehaviour
                 RaycastHit2D _hit2D = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector3.forward);
                 if (_hit2D.collider.gameObject.tag == "Line")
                 {
-                    Destroy(_edgeCollider2D);
-                    _line.positionCount = 0;
-                    Destroy(gameObject.GetComponent<LineRenderUpdate>());
+                    if (_hit2D.collider.gameObject.name == _edgeCollider2D.gameObject.name)
+                    {
+                        Destroy(_edgeCollider2D.gameObject);
+                        _line.positionCount = 0;
+                        Destroy(gameObject.GetComponent<LineRenderUpdate>());
+                    }
                 }
             }
         }
@@ -141,6 +144,5 @@ public class LineRenderUpdate : MonoBehaviour
         {
             
         }
-        
     }
 }
