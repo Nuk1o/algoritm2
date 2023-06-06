@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class SaveBlock : MonoBehaviour
 {
     [SerializeField] private ArrayBlocks _arrayBlocks;
+    [SerializeField] private EdgeCollider2D _edgeCollider2D;
     public List<GameObject> ListGOParent = new List<GameObject>();
     public List<GameObject> ListGO = new List<GameObject>();
     public void LineCreate(GameObject _gameObject)
@@ -21,10 +23,9 @@ public class SaveBlock : MonoBehaviour
                 LineCheck(_line,_block1,_block2,_arrow1,_arrow2);
             }
         }
-        catch (Exception e)
+        catch
         {
-            Console.WriteLine(e);
-            throw;
+            
         }
     }
 
@@ -130,8 +131,9 @@ public class SaveBlock : MonoBehaviour
                 _line.SetPosition(1,_pos2);
                 _line.SetPosition(2,_pos3);
                 _line.SetPosition(3,_pos4);
-                
-                _lineRenderUpdate.LineRenderUpdate1(_arrow1,_arrow2, _blockOffset);
+
+                EdgeCollider2D _newEdgeCollider2D = Instantiate(_edgeCollider2D, Vector3.zero,quaternion.identity);
+                _lineRenderUpdate.LineRenderUpdate1(_arrow1,_arrow2, _blockOffset,_newEdgeCollider2D);
                 break;
             default:
                 Debug.Log("LineCreate Error");

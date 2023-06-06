@@ -12,6 +12,7 @@ TagManager:
   - ConnectorBlock
   - TerminatorBlock
   - Arrow
+  - Line
   layers:
   - Default
   - TransparentFX

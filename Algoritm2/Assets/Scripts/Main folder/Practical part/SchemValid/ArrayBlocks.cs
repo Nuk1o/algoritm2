@@ -125,7 +125,6 @@ public class ArrayBlocks : MonoBehaviour
                             int amount = Convert.ToInt32(queryDatabase.GetAmountTask(idUser));
                             queryDatabase.StudentAddAmountTask(idUser, amount + 1);
                         }
-                        
                     }
                     else
                     {

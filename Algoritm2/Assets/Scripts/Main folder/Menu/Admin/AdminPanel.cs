@@ -39,7 +39,6 @@ public class AdminPanel : MonoBehaviour
             _login.text = _login_users_bd[_count_R];
             _role.text = _role_users_bd[_count_R];
         }
-        //DestroyImmediate(_row);
     }
 
     IEnumerator UpdateTable()

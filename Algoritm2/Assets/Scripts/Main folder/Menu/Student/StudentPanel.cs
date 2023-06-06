@@ -11,8 +11,8 @@ public class StudentPanel : MonoBehaviour
     private SafePlayerPrefs _safePlayerPrefs;
     private void Start()
     {
-        _theorySlider.maxValue = 5;
-        _pracSlider.maxValue = 5;
+        _theorySlider.maxValue = 4;
+        _pracSlider.maxValue = 10;
         queryDatabase = new BDbase();
         _safePlayerPrefs = new SafePlayerPrefs();
     }
