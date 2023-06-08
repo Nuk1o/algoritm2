@@ -1,5 +1,6 @@
 using System.IO;
 using System.Security.Cryptography;
+
 public static class PassEncryption
 {
     private const int KEYSIZE = 256;

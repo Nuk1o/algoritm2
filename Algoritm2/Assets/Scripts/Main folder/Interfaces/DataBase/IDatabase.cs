@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-interface IQueryDatabase
+public interface IQueryDatabase
 {
     public void AddUser(string login, string password, string role);
     public string EnterApp(string login, string password);

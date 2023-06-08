@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Video/bgVideo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Video/bgVideo.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderUpdate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/SaveBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/SaveBlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/PassEncryption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Security/PassEncryption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/PassEncryption.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Security/PassEncryption.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Admin/AdminPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Auth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/GUI/Views/EditModeTestListGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Programm/Algoritm/Assets/Scripts/BD/BD_base.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Programm/Algoritm/Assets/Scripts/BD/BD_connection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Programm/Algoritm/Assets/Scripts/BD/BD_param.cs" root0="SKIP_HIGHLIGHTING" />
@@ -134,7 +141,11 @@
       <workItem from="1685898235660" duration="10584000" />
       <workItem from="1685956653104" duration="156000" />
       <workItem from="1685978108146" duration="398000" />
-      <workItem from="1686050246685" duration="9798000" />
+      <workItem from="1686050246685" duration="10377000" />
+      <workItem from="1686085421472" duration="3237000" />
+      <workItem from="1686140198002" duration="4090000" />
+      <workItem from="1686157430905" duration="656000" />
+      <workItem from="1686183165116" duration="1903000" />
     </task>
     <servers />
   </component>
