@@ -1,8 +1,10 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
-
+/*
+ *  Скрипт управления теоретической частью
+ *  Theoretical part management script
+ */
 public class VideoPlayerTheory : MonoBehaviour
 {
     [SerializeField] private VideoPlayer _videoPlayer;

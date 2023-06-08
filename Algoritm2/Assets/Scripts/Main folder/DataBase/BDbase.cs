@@ -1,9 +1,16 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
-
+/*
+ *  Скрипт хранящий в себе все вызовы к бд
+ *  A script storing all database calls
+ */
 public class BDbase : IQueryDatabase
 {
+    /*
+     *  Добавление студента
+     *  Adding a student
+     */
     public string AddStudent(int idUser)
     {
         try
@@ -18,7 +25,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Добавляем определённому студенту значение кол-во решённых задач
+     *  Add the number of solved problems to a certain student
+     */
     public string StudentAddAmountTask(int idUser, int amout)
     {
         try
@@ -33,7 +44,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Сохраняем практическую задачу, сделанную преподавателем
+     *  Save the practical task made by the teacher
+     */
     public string AddTaskTeacher(int idTeach, string nameTask, string textTask, string algoritmTask)
     {
         try
@@ -49,7 +64,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Добавление преподавателя
+     *  Adding a teacher
+     */
     public string AddTeacher(int idUser, string login)
     {
         try
@@ -64,7 +83,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Добавление пользователя
+     *  Adding a user
+     */
     public void AddUser(string login, string password, string role)
     {
         try
@@ -78,7 +101,11 @@ public class BDbase : IQueryDatabase
             Debug.Log("Ошибка добавления пользователя BD_base");
         }
     }
-
+    
+    /*
+     *  Авторизация в приложение
+     *  Authorization in the application
+     */
     public string EnterApp(string login, string password)
     {
         try
@@ -94,7 +121,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Получить алгоритм решения задачи по её названию
+     *  Get the algorithm for solving the problem by its name
+     */
     public string GetAlgoritmPrac(string nameTask)
     {
         try
@@ -110,7 +141,11 @@ public class BDbase : IQueryDatabase
 
         return null;
     }
-
+    
+    /*
+     *  Получить название задач сделанным определённым учителем
+     *  Get the name of the tasks made by a certain teacher
+     */
     public List<string> GetNameTextTeacher(int idTeacher)
     {
         try
@@ -126,7 +161,11 @@ public class BDbase : IQueryDatabase
 
         return null;
     }
-
+    
+    /*
+     *  Получить id преподавателя по id пользователя
+     *  Get teacher id by user id
+     */
     public string GetIdTeacher(int idUser)
     {
         try
@@ -141,7 +180,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Удалить задачу с данным названием
+     *  Delete a task with this name
+     */
     public string DeleteTask(string nameTask)
     {
         try
@@ -156,7 +199,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Получить кол-во просмотренного учебного материала
+     *  Get the amount of training material viewed
+     */
     public string GetAmountTheory(int idUser)
     {
         try
@@ -171,7 +218,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Получить кол-во верно решённых практических работ
+     *  Get the number of correctly solved practical works
+     */
     public string GetAmountTask(int idUser)
     {
         try
@@ -186,7 +237,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Получить id преподавателя по логину
+     *  Get teacher id by login
+     */
     public string GetIdTeach(string login)
     {
         try
@@ -201,7 +256,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Получить id пользователя по логину
+     *  Get user id by login
+     */
     public string GetIdUser(string login)
     {
         try
@@ -216,7 +275,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Получить список практических задач
+     *  Get a list of practical tasks
+     */
     public List<string> GetPracTask()
     {
         try
@@ -229,10 +292,13 @@ public class BDbase : IQueryDatabase
         {
             Debug.Log("Ошибка get_prac_task");
         }
-
         return null;
     }
-
+    
+    /*
+     *  Получить список описания практических задач
+     *  Get a list of descriptions of practical tasks
+     */
     public string GetPracTextTask(string nameTask)
     {
         try
@@ -245,10 +311,13 @@ public class BDbase : IQueryDatabase
         {
             Debug.Log("Ошибка get_prac_text_task");
         }
-
         return null;
     }
-
+    
+    /*
+     *  Получить список названия задач
+     *  Get a list of task names
+     */
     public List<string> NameTask()
     {
         try
@@ -264,7 +333,11 @@ public class BDbase : IQueryDatabase
         }
         return null;
     }
-
+    
+    /*
+     *  Добавляем определённому студенту значение кол-во просмотренного учебного материала
+     *  Add to a certain student the value of the amount of courseware viewed
+     */
     public string StudentAddAmountTheory(int idUser, int amout)
     {
         try
@@ -280,6 +353,10 @@ public class BDbase : IQueryDatabase
         return null;
     }
     
+    /*
+     *  Получить список пользователей
+     *  Get list of users
+     */
     public List<string> UsersLogin()
     {
         try
@@ -293,10 +370,13 @@ public class BDbase : IQueryDatabase
         {
             Debug.Log("Ошибка list login, base");
         }
-
         return null;
     }
-
+    
+    /*
+     *  Получить список ролей
+     *  Get list of roles
+     */
     public List<string> UsersRole()
     {
         try

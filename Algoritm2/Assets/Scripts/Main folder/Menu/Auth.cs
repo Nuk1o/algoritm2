@@ -2,7 +2,10 @@ using System;
 using System.Text;
 using UnityEngine;
 using TMPro;
-
+/*
+ *  Скрипт авторизации
+ *  Authorization script
+ */
 public class Auth : MonoBehaviour
 {
     [SerializeField] private GameObject _ui_auth;

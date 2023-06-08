@@ -1,6 +1,9 @@
 using System.IO;
 using System.Security.Cryptography;
-
+/*
+ *  Скрипт шифрования
+ *  Encryption script
+ */
 public static class PassEncryption
 {
     private const int KEYSIZE = 256;

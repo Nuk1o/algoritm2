@@ -1,7 +1,10 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
+ *  Скрипт записи данных в блок
+ *  Script for writing data to a block
+ */
 public class TaskMenuiCreate : MonoBehaviour
 {
     [SerializeField] private GameObject _taskMenu;
@@ -32,8 +35,8 @@ public class TaskMenuiCreate : MonoBehaviour
 
 class InputTextTask
 {
-    private TMP_InputField _tmpInputField;//Input Field
-    private Button _buttonOk,_buttonCancel;//Buttons
+    private TMP_InputField _tmpInputField;
+    private Button _buttonOk,_buttonCancel;
     public TextSaveTask _TextSaveTask;
 
     public InputTextTask(TMP_InputField _inputField,Button _buttonOk1,Button _buttonCancel1)

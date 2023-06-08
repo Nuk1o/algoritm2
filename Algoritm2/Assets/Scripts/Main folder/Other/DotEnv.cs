@@ -1,6 +1,9 @@
 using System;
 using System.IO;
-
+/*
+ *  Скрипт для работы с dotEnv файлами
+ *  Script for working with dotEnv files
+ */
 public static class DotEnv
 {
     public static void Load(string filePath)

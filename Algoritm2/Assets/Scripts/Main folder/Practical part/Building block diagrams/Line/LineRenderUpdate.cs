@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ *  Скрипт обновления линии
+ *  Line update script
+ */
 public class LineRenderUpdate : MonoBehaviour
 {
     private LineRenderer _line;

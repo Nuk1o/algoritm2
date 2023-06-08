@@ -1,7 +1,9 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ *  Скрипт хранение коллайдера
+ *  Collider storage script
+ */
 public class ColliderStorage : MonoBehaviour, iColliderStorage
 {
     private List<EdgeCollider2D> _edgeCollider2Ds;
@@ -33,7 +35,6 @@ public class ColliderStorage : MonoBehaviour, iColliderStorage
         {
             
         }
-        
     }
 }
 

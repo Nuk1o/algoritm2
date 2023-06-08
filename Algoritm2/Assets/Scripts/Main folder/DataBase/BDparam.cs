@@ -2,7 +2,10 @@ using MySql.Data.MySqlClient;
 using System;
 using System.IO;
 using UnityEngine;
-
+/*
+ *  Скрипт загрузки данных из env файла для подключения к бд
+ *  A script to load data from an env file to connect to the database
+ */
 public class BDparam : IDatabaseParameters
 {
     public MySqlConnection BDConnnection()

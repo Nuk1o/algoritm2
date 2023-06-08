@@ -5,7 +5,10 @@ using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
+ *  Сохранение массива блоков
+ *  Saving an array of blocks
+ */
 public class ArrayBlocks : MonoBehaviour
 {
     [SerializeField] private Button _buttonOk;

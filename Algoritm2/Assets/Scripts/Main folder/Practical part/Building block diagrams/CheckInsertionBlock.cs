@@ -1,4 +1,8 @@
 using UnityEngine;
+/*
+ *  Скрипт фиксирование блоков
+ *  Block fixing script
+ */
 public class CheckInsertionBlock : MonoBehaviour
 {
     private const float _offsetHeightUp = 4; 

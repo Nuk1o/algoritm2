@@ -1,10 +1,12 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Unity.Mathematics;
-
+/*
+ *  Скрипт админ панели
+ *  Admin panel script
+ */
 public class AdminPanel : MonoBehaviour
 {
     [SerializeField] private GameObject _row;
@@ -13,10 +15,10 @@ public class AdminPanel : MonoBehaviour
 
     private void OnEnable()
     {
-        StartCoroutine(UpdateTable());
+        StartCoroutine(UpdateTable()); //Включаем корутину обновления данных в таблице
     }
 
-    private void SelectUsers()
+    private void SelectUsers() //Вывод пользователей в таблицу
     {
         IQueryDatabase queryDatabase = new BDbase();
         List<string> _login_users_bd = new List<string>();
@@ -41,7 +43,7 @@ public class AdminPanel : MonoBehaviour
         }
     }
 
-    IEnumerator UpdateTable()
+    IEnumerator UpdateTable() //Корутина обновления
     {
         while (true)
         {

@@ -1,16 +1,19 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
+ *  Скрипт вызова вопросительного меню
+ *  Question-menu call script
+ */
 public class QuestMenu : MonoBehaviour
 {
-    [SerializeField] private GameObject _menu_quest;//Меню с вопросом
-    [SerializeField] private TMP_Text _quest_txt;//Текст вопроса на отобразившимся меню
-    [SerializeField] private string _Enter_txt;//Введите текст вопроса
-    [SerializeField] private Button _btn_cancle, _btn_ok;//Кнопки да и отмена
+    [SerializeField] private GameObject _menu_quest;
+    [SerializeField] private TMP_Text _quest_txt;
+    [SerializeField] private string _Enter_txt;
+    [SerializeField] private Button _btn_cancle, _btn_ok;
     [Space]
-    [SerializeField] private GameObject _menu1;//Меню на котором мы находимся
-    [SerializeField] private GameObject _menu2;//Меню которое нужно включить
+    [SerializeField] private GameObject _menu1;
+    [SerializeField] private GameObject _menu2;
     [Space]
     [SerializeField] private GameObject _table;
     [Space]

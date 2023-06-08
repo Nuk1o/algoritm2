@@ -1,4 +1,8 @@
 using UnityEngine;
+/*
+ *  Скрипт перезапуска окна
+ *  Window restart script
+ */
 public class WindowRestart : MonoBehaviour
 {
     public void WinResatart(GameObject _newWin)

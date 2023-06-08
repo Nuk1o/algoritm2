@@ -1,7 +1,10 @@
 using UnityEngine;
 using System.Security.Cryptography;
 using System.Text;
-
+/*
+ *  Скрипт защиты реестра
+ *  Registry protection script
+ */
 public class SafePlayerPrefs : MonoBehaviour
 {
     private string GetHash(SHA256 hash, string input)

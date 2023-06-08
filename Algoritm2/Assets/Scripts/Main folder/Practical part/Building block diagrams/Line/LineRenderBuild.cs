@@ -1,5 +1,8 @@
 using UnityEngine;
-
+/*
+ *  Скрипт построения линии
+ *  Line construction script
+ */
 public class LineRenderBuild : MonoBehaviour
 {
     [SerializeField] private SaveBlock _saveBlock;

@@ -2,7 +2,10 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
-
+/*
+ *  Скрипт просмотра видео
+ *  Video playback script
+ */
 public class VideoView : MonoBehaviour
 {
     private bool _isAdd = false;

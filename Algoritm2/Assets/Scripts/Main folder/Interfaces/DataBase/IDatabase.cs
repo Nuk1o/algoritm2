@@ -1,5 +1,8 @@
 using System.Collections.Generic;
-
+/*
+ *  Интерфейс запросов к базе данных
+ *  Database query interface
+ */
 public interface IQueryDatabase
 {
     public void AddUser(string login, string password, string role);

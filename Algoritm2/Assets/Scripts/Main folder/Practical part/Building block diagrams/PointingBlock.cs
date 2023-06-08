@@ -1,5 +1,9 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+/*
+ *  Скрипт для показа точек соединения
+ *  Script to show connection points
+ */
 public class PointingBlock :MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     private GameObject[] dots = new GameObject [4];

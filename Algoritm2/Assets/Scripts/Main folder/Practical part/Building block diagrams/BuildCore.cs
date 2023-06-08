@@ -1,16 +1,18 @@
-using System;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+/*
+ *  Скрипт построение блок-схемы
+ *  Block diagram construction script
+ */
 public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDropHandler
 {
     [SerializeField] private GameObject _parent;
     [SerializeField] private Canvas _canvas;
     [SerializeField] private TMP_Text _textBlock;
     [SerializeField] private GameObject _inputField;
-
     [SerializeField] private SaveBlock _saveBlock;
     
     private RectTransform _rectTransform;
@@ -26,7 +28,6 @@ public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDrop
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        //Debug.Log("Click");
         if (eventData.clickCount == 2 && eventData.button == PointerEventData.InputButton.Left)
         {
             EneterTextBlock eneterTextBlock = new EneterTextBlock(_textBlock);
@@ -35,7 +36,6 @@ public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDrop
         }
         if (eventData.button == PointerEventData.InputButton.Right&&_spawnBlock)
         {
-            //Del block
             try
             {
                 _saveBlock.RemoveGO(gameObject);
@@ -55,7 +55,6 @@ public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDrop
 
     public void OnDrop(PointerEventData eventData)
     {
-        //Debug.Log("Отпустил");
         if (!_spawnBlock)
         {
             Instantiate(gameObject, _startBlockPosition, quaternion.identity, _parent.transform);
@@ -68,11 +67,11 @@ public class BuildCore : MonoBehaviour, IPointerDownHandler, IDragHandler, IDrop
 
 class InputTextBlock
 {
-    public GameObject InputFieldTable;//Canvas
-    private GameObject _BGInputFieldTable;//BG
-    private TMP_Text _textLogoTable;//Text
-    private TMP_InputField _tmpInputField;//Input Field
-    private Button _buttonOk;//Button
+    public GameObject InputFieldTable;
+    private GameObject _BGInputFieldTable;
+    private TMP_Text _textLogoTable;
+    private TMP_InputField _tmpInputField;
+    private Button _buttonOk;
     public EneterTextBlock EneterTextBlock;
 
     public InputTextBlock(GameObject inputFieldTable)

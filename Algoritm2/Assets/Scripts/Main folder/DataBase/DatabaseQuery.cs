@@ -1,10 +1,13 @@
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ *  Методы запросов к базе данных
+ *  Database query methods
+ */
 public class DatabaseQuery : IDatabaseQuery
 {
-    public List<string> ListQuery(string query)
+    public List<string> ListQuery(string query)//Запрос массива
     {
         List<string> _list = new List<string>();
         IDatabaseParameters databaseConnection = new BDparam();
@@ -27,7 +30,7 @@ public class DatabaseQuery : IDatabaseQuery
         return _list;
     }
 
-    public object QueryBD(string query)
+    public object QueryBD(string query)//Стандартный запрос
     {
         IDatabaseParameters databaseConnection = new BDparam();
         MySqlConnection mySqlConnection = databaseConnection.BDConnnection();
@@ -54,7 +57,7 @@ public class DatabaseQuery : IDatabaseQuery
         return null;
     }
 
-    public string StrQuery(string query)
+    public string StrQuery(string query)//Запрос строки
     {
         IDatabaseParameters databaseConnection = new BDparam();
         MySqlConnection mySqlConnection = databaseConnection.BDConnnection();

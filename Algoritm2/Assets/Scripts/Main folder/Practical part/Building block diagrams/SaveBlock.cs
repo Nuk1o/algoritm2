@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
-
+/*
+ *  Скрипт для сохранения блок-схемы
+ *  Script to save the flowchart
+ */
 public class SaveBlock : MonoBehaviour
 {
     [SerializeField] private ArrayBlocks _arrayBlocks;

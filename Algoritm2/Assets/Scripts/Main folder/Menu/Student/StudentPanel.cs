@@ -2,7 +2,10 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
+ *  Скрипт панели студента
+ *  Student panel script
+ */
 public class StudentPanel : MonoBehaviour
 {
     [SerializeField] private Slider _theorySlider;
@@ -22,7 +25,7 @@ public class StudentPanel : MonoBehaviour
         StartCoroutine(UpdateTable());
     }
 
-    private void SelectData()
+    private void SelectData() //Вывод задания в таблицу
     {
         try
         {

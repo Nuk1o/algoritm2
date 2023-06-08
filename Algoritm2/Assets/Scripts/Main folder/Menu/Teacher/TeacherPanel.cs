@@ -1,10 +1,12 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Unity.Mathematics;
-
+/*
+ *  Скрипт панели преподавателя
+ *  Teacher panel script
+ */
 public class TeacherPanel : MonoBehaviour
 {
     [SerializeField] private GameObject _row;
@@ -35,7 +37,6 @@ public class TeacherPanel : MonoBehaviour
             TMP_Text _text = _go2.GetComponent<TMP_Text>();
             _name.text = _name_task_bd[_count_R];
             _text.text = queryDatabase.GetPracTextTask(_name_task_bd[_count_R]);
-            
         }
     }
 

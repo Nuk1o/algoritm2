@@ -2,7 +2,10 @@ using System;
 using System.Text;
 using UnityEngine;
 using TMPro;
-
+/*
+ *  Скрипт регистрации
+ *  Registration script
+ */
 public class Registration : MonoBehaviour
 {
     [SerializeField] private TMP_InputField _login;

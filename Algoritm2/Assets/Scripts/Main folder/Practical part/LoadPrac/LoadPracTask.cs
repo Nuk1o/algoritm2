@@ -1,7 +1,10 @@
 using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
-
+/*
+ *  Скрипт загрузки практической работы
+ *  Script for downloading the practical work
+ */
 public class LoadPracTask : MonoBehaviour
 {
     [SerializeField] TMP_Text _logo;

@@ -3,15 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="ddaa3ca5-1fc6-4bcc-9aee-0a3333075a72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritm2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Video/bgVideo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Video/bgVideo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDbase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDbase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDconnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDconnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDparam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/BDparam.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/DatabaseQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/DataBase/DatabaseQuery.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/PassEncryption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Security/PassEncryption.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/PassEncryption.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Security/PassEncryption.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabaseConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabaseConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabaseParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabaseParameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabaseQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Interfaces/DataBase/IDatabaseQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Admin/AdminPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Admin/AdminPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Auth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Auth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/ExitApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/ExitApp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/QuestMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/QuestMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Registration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Registration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Student/StudentPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Student/StudentPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/TaskMenuiCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/TaskMenuiCreate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Teacher/DelTaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Teacher/DelTaskController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Teacher/TeacherPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Menu/Teacher/TeacherPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/DotEnv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/DotEnv.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/WindowRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Other/WindowRestart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/BuildCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/BuildCore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/CheckInsertionBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/CheckInsertionBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/ColliderStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/ColliderStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/Line/LineRenderUpdate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/PointingBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/PointingBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/SaveBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/Building block diagrams/SaveBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/LoadPrac/LoadPracTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/LoadPrac/LoadPracTask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Practical part/SchemValid/ArrayBlocks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Security/PassEncryption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Security/PassEncryption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Security/SafePlayerPrefs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Security/SafePlayerPrefs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part/VideoPlayerTheory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part/VideoPlayerTheory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part/VideoView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main folder/Theoretical part/VideoView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/PlayMode/TestAuth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/PlayMode/TestProgramm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/PlayMode/TestAuth.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/PlayMode/TestProgramm.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +171,7 @@
       <workItem from="1686085421472" duration="3237000" />
       <workItem from="1686140198002" duration="4090000" />
       <workItem from="1686157430905" duration="656000" />
-      <workItem from="1686183165116" duration="1903000" />
+      <workItem from="1686183165116" duration="7419000" />
     </task>
     <servers />
   </component>
