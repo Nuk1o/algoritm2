@@ -16,7 +16,6 @@ public class ArrayBlocks : MonoBehaviour
     [SerializeField] private TMP_Text _txtTask;
     [SerializeField] private bool _isStudent;
     [SerializeField] private TMP_Text _txtResult;
-    public List<BlocksListClass> _listBlocks = new List<BlocksListClass>();
     private List<string> _saveList = new List<string>();
     private bool _isSave = false;
     private TMP_Text _tmpText1;
@@ -38,23 +37,22 @@ public class ArrayBlocks : MonoBehaviour
         if (!_isSave)
         {
             _isSave = true;
-            foreach (var VARIABLE in _listBlocks)
+
+            if (gameObject.transform.TryGetComponent(out BlockStorage _blockStorage))
             {
-                _tmpText1 = VARIABLE.block1.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
-                _tmpText2 = VARIABLE.block2.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
-                Debug.Log($"Алгоритм: {_tmpText1.text}");
-                Debug.Log($"Алгоритм: {_tmpText2.text}");
-                _saveList.Add(_tmpText1.text.ToLower().Trim());
-                _saveList.Add(_tmpText2.text.ToLower().Trim());
+                foreach (var gameObjectBlock in _blockStorage.GetArray())
+                {
+                    _tmpText1 = gameObjectBlock.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
+                    _saveList.Add(_tmpText1.text.ToLower().Trim());
+                    Debug.Log($"TEXT BLOCK: {_tmpText1.text}");
+                }
             }
             string algoritm = "";
             foreach (var VARIABLE in _saveList)
             {
-                Debug.Log("Save "+VARIABLE);
                 algoritm += VARIABLE.ToString();
             }
-            Debug.Log(_txtLogo.text);
-            Debug.Log(_txtTask.text);
+            Debug.Log(algoritm);
             SafePlayerPrefs _safePlayerPrefs = new SafePlayerPrefs();
             IQueryDatabase queryDatabase = new BDbase();
             if (_safePlayerPrefs.HasBeenEdited("first","LoginUser"))
@@ -64,7 +62,6 @@ public class ArrayBlocks : MonoBehaviour
                 Debug.Log(algoritm);
                 using SHA256 hash = SHA256.Create();
                 string _hash = GetHash(hash, algoritm);
-                Debug.Log(_hash);
                 string logo = _txtLogo.text.Trim().ToLower();
                 string textTask = _txtTask.text.Trim().ToLower();
                 logo = logo.Replace(" ", "_");
@@ -75,7 +72,7 @@ public class ArrayBlocks : MonoBehaviour
                 }
                 catch
                 {
-                    Debug.Log("Ошибка сверху");
+                    Debug.Log("saveAll error");
                 }
             }
             if (gameObject.TryGetComponent(out iColliderStorage _colliderStorage))
@@ -90,14 +87,18 @@ public class ArrayBlocks : MonoBehaviour
         if (!_isSave)
         {
             _isSave = true;            
-            foreach (var VARIABLE in _listBlocks)
+            
+            if (gameObject.transform.TryGetComponent(out BlockStorage _blockStorage))
             {
-                _tmpText1 = VARIABLE.block1.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
-                _tmpText2 = VARIABLE.block2.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
-                Debug.Log($"Алгоритм: {_tmpText1.text}");
-                Debug.Log($"Алгоритм: {_tmpText2.text}");
-                _saveList.Add(_tmpText1.text.ToLower().Trim());
-                _saveList.Add(_tmpText2.text.ToLower().Trim());
+                Debug.Log("TRUE"+_blockStorage.GetArray().Count);
+                
+                foreach (var gameObjectBlock in _blockStorage.GetArray())
+                {
+                    Debug.Log(gameObjectBlock.transform.childCount);
+                    _tmpText1 = gameObjectBlock.transform.GetChild(4).gameObject.GetComponent<TMP_Text>();
+                    _saveList.Add(_tmpText1.text.ToLower().Trim());
+                    Debug.Log($"TEXT BLOCK: {_tmpText1.text}");
+                }
             }
             string algoritm = "";
             foreach (var VARIABLE in _saveList)
@@ -109,6 +110,7 @@ public class ArrayBlocks : MonoBehaviour
             Debug.Log(_txtTask.text);
             SafePlayerPrefs _safePlayerPrefs = new SafePlayerPrefs();            
             Debug.Log("Проверил работу");
+            Debug.Log($"ALGORITM TEXT {algoritm}");
             IQueryDatabase queryDatabase = new BDbase();
             using SHA256 hash = SHA256.Create();
             string _hash = GetHash(hash, algoritm);
@@ -160,17 +162,5 @@ public class ArrayBlocks : MonoBehaviour
             sBuilder.Append(data[i].ToString("x2"));
         }
         return sBuilder.ToString();
-    }
-}
-
-public class BlocksListClass
-{
-    public GameObject block1 { get; }
-    public GameObject block2 { get; }
-
-    public BlocksListClass(GameObject Fblock, GameObject Sblock)
-    {
-        block1 = Fblock;
-        block2 = Sblock;
     }
 }

@@ -96,6 +96,7 @@ class InputTextBlock
         if (eneterTextBlock.TextBlock.text=="")
         {
             eneterTextBlock.TextBlock.text = tmpInputField.text;
+            Debug.Log("Save TXT " +eneterTextBlock.TextBlock.text);
             InputFieldTable.SetActive(false);            
         }
     }

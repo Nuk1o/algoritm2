@@ -13,6 +13,7 @@ public class SaveBlock : MonoBehaviour
     public List<GameObject> ListGOParent = new List<GameObject>();
     public List<GameObject> ListGO = new List<GameObject>();
     private int idCollider = 0;
+
     public void LineCreate(GameObject _gameObject)
     {
         try
@@ -24,6 +25,12 @@ public class SaveBlock : MonoBehaviour
                 GameObject _arrow1 = ListGO[^2];
                 GameObject _arrow2 = ListGO[^1];
                 GameObject _line = _block1.transform.GetChild(5).gameObject;
+                if (gameObject.transform.TryGetComponent(out BlockStorage _blockStorage))
+                {
+                    _blockStorage.SaveBlock(_block1);
+                    _blockStorage.SaveBlock(_block2);
+                    Debug.Log("SAVE" + _blockStorage.GetArray().Count);
+                }
                 LineCheck(_line,_block1,_block2,_arrow1,_arrow2);
             }
         }
@@ -37,6 +44,12 @@ public class SaveBlock : MonoBehaviour
     {
         Debug.Log(_block);
         ListGOParent.Remove(_block);
+        if (gameObject.transform.TryGetComponent(out BlockStorage _blockStorage))
+        {
+            _blockStorage.RemoveBlock(_block);
+            Debug.Log("REMOVE");
+            Debug.Log(_blockStorage.GetArray().Count);
+        }
     }
 
     private void LineCheck(GameObject _line, GameObject _block1, GameObject _block2, GameObject _arrow1, GameObject _arrow2)
@@ -70,12 +83,12 @@ public class SaveBlock : MonoBehaviour
             {
                 LineCreate(_line1,4,0,_posBlock1,_posBlock2,_arrow1,_arrow2);
             }
-            
-            BlocksListClass _blocksList = new BlocksListClass(_block1, _block2);
-            Debug.Log(_blocksList.block1);
-            Debug.Log(_blocksList.block2);
-            _arrayBlocks._listBlocks.Add(_blocksList);
-
+            if (gameObject.transform.TryGetComponent(out BlockStorage _blockStorage))
+            {
+                _blockStorage.SaveBlock(_block1);
+                _blockStorage.SaveBlock(_block2);
+                Debug.Log("SAVE" + _blockStorage.GetArray().Count);
+            }
         }
         catch (Exception e)
         {
